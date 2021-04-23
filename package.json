@@ -43,8 +43,8 @@
     "react-addons-shallow-compare": "^15.6.2",
     "react-big-calendar": "^0.17.0",
     "react-dev-utils": "^4.1.0",
-    "react-dom": "^16.14.0",
-    "react-router": "^3.2.6",
+    "react-dom": "^16.0.0",
+    "react-router": "^3.2.0",
     "react-scripts": "^4.0.3",
     "recharts": "^1.0.0-alpha.6",
     "rheostat": "^2.1.1",
@@ -109,17 +109,5 @@
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   }
 }

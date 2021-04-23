@@ -13668,7 +13668,7 @@ react-transition-group@^2.5.0:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.0.0:
+react@^16.14.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==
@@ -14557,7 +14557,7 @@ selfsigned@^1.10.8, selfsigned@^1.9.1:
   dependencies:
     node-forge "^0.10.0"
 
-semantic-ui-css@^2.2.12:
+semantic-ui-css@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/semantic-ui-css/-/semantic-ui-css-2.4.1.tgz#f5aea39fafb787cbd905ec724272a3f9cba9004a"
   integrity sha512-Pkp0p9oWOxlH0kODx7qFpIRYpK1T4WJOO4lNnpNPOoWKCrYsfHqYSKgk5fHfQtnWnsAKy7nLJMW02bgDWWFZFg==
@@ -15579,9 +15579,9 @@ table@^4.0.1:
     string-width "^2.1.1"
 
 table@^6.0.4:
-  version "6.3.3"
-  resolved "https://registry.yarnpkg.com/table/-/table-6.3.3.tgz#62c3b8f6def131bf2fa2ab3badb040a9f74e705f"
-  integrity sha512-zAplNl1IDQIzlGbqfVg3/pS9bb7RaUgaNd0Qzwt/0oPlzEZZGYQIb+A1Gh8TBU3mzs2E5HfWWqT3Oj0oIup+pw==
+  version "6.3.4"
+  resolved "https://registry.yarnpkg.com/table/-/table-6.3.4.tgz#5d8a7fa1c887bd1ef08741751ec36246255a80b6"
+  integrity sha512-fhKcZ3+oAYG/ld3seJEZ9+fGSsy+yeoPzLQUrwbOzNYdhrU+6TzObhJ2Sp76ZfUGIrDTrxsXz5NSCZJIUOJb4Q==
   dependencies:
     ajv "^8.0.1"
     lodash.clonedeep "^4.5.0"
