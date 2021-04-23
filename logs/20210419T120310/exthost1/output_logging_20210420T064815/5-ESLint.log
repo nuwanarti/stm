@@ -1,0 +1,359 @@
+[Info  - 6:48:15 AM] ESLint server is starting
+[Info  - 6:48:16 AM] ESLint server running in node v12.18.3
+[Info  - 6:48:16 AM] ESLint server is running.
+[Info  - 12:16:45 AM] ESLint library loaded from: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint/lib/api.js
+[Info  - 12:34:08 AM] ESLint library loaded from: /Users/rt/.nvm/versions/node/v14.15.1/lib/node_modules/eslint/lib/api.js
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 12:34:09 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 1:42:51 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:08:00 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:08:02 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:08:02 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:08:03 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:08:05 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:08:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:10:30 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:15:51 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:52 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:53 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:54 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:54 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:56 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:56 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:58 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:58 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:58 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:59 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:16:59 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:00 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:00 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:00 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:01 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:01 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:01 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:02 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:02 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:02 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:03 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:03 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:04 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:17:18 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:19:50 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:20:11 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:21:15 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:22:57 AM] Failed to load config "react-app" to extend from. Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:33:29 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:29 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:30 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:31 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:32 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:32 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:32 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:32 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:33 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:33 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:33 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:33 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:34 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:35 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:35 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:35 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:35 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:35 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:35 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:35 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:36 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:37 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:37 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:37 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:38 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:38 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:38 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:39 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:40 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:40 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:56 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:56 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:56 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:56 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:56 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:57 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:57 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:33:59 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:34:00 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:34:02 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+[Info  - 2:34:04 AM] ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/rampClosed.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 1)
+(node:77021) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:34:16 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 2)
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-array/src/count.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 3)
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:45:44 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-array/src/count.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:55 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:56 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:56 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:56 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:49:56 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-array/src/count.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:51:34 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-array/src/count.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:52:13 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-scale-chromatic/src/ramp.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:77021) UnhandledPromiseRejectionWarning: Error: ENOENT: no such file or directory, realpath '/Users/rt/Documents/famnit/stmDashboard/node_modules/d3-array/src/count.js'
+    at Function.realpathSync.native (fs.js:1684:3)
+    at Function.native (electron/js2c/asar_bundle.js:5:4556)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15119
+    at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
+    at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
+(node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc
+[Info  - 2:53:47 AM] Cannot read config file: /Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js Error: ENOENT: no such file or directory, open '/Users/rt/Documents/famnit/stmDashboard/node_modules/eslint-config-react-app/index.js' Referenced from: /Users/rt/Documents/famnit/stmDashboard/.eslintrc

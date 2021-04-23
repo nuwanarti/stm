@@ -1,0 +1,1337 @@
+["INFO" - 12:03:30 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 12:03:30 PM] Extension Version: 6.3.2.
+["INFO" - 3:44:19 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 3:44:19 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 3:44:19 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:44:19 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:44:19 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["INFO" - 3:44:19 PM] Formatting completed in 202.22413ms.
+["INFO" - 6:05:13 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 6:05:13 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:05:13 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:05:13 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:05:13 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["ERROR" - 6:05:13 AM] Error formatting document.
+["ERROR" - 6:05:13 AM] Unexpected token, expected "," (142:1)
+  140 | }
+  141 | 
+> 142 | export default MyResponsiveScatterPlot;
+      | ^
+  143 | 
+SyntaxError: Unexpected token, expected "," (142:1)
+  140 | }
+  141 | 
+> 142 | export default MyResponsiveScatterPlot;
+      | ^
+  143 | 
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 6:05:13 AM] Formatting completed in 193.94746ms.
+["INFO" - 6:05:16 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 6:05:16 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:05:16 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:05:16 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:05:16 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["ERROR" - 6:05:16 AM] Error formatting document.
+["ERROR" - 6:05:16 AM] Unexpected token, expected "," (142:1)
+  140 | }
+  141 | 
+> 142 | export default MyResponsiveScatterPlot;
+      | ^
+  143 | 
+SyntaxError: Unexpected token, expected "," (142:1)
+  140 | }
+  141 | 
+> 142 | export default MyResponsiveScatterPlot;
+      | ^
+  143 | 
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 6:05:16 AM] Formatting completed in 28.275501ms.
+["INFO" - 6:06:27 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 6:06:27 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:06:27 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:06:27 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:06:27 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["INFO" - 6:06:27 AM] Formatting completed in 62.59977ms.
+["INFO" - 6:17:24 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 6:17:24 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:17:24 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:17:24 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:17:24 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 6:17:25 AM] Formatting completed in 109.135535ms.
+["INFO" - 6:22:32 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 6:22:32 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:22:32 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:22:32 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:22:32 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 6:22:32 AM] Formatting completed in 109.429436ms.
+["INFO" - 7:18:37 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 7:18:37 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:18:37 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:18:37 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:18:37 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["INFO" - 7:18:37 AM] Formatting completed in 96.353144ms.
+["INFO" - 7:30:08 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 7:30:08 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:30:08 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:30:08 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:30:08 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["INFO" - 7:30:08 AM] Formatting completed in 78.124559ms.
+["INFO" - 7:44:52 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js
+["INFO" - 7:44:52 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:44:52 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:44:52 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:44:52 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js",
+  "parser": "babel"
+}
+["INFO" - 7:44:52 AM] Formatting completed in 86.131499ms.
+["INFO" - 8:37:28 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js
+["INFO" - 8:37:28 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 8:37:28 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:37:28 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:37:28 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js",
+  "parser": "babel"
+}
+["ERROR" - 8:37:28 AM] Error formatting document.
+["ERROR" - 8:37:28 AM] Unexpected token, expected ";" (26:6)
+  24 | export default DropdownExampleMultipleSearchSelection
+  25 | 
+> 26 | <div role="combobox" aria-expanded="false" class="ui fluid multiple search selection dropdown"><input type="text" aria-autocomplete="list" autoComplete="off" class="search" tabindex="0" value=""/><span class="sizer"></span><div aria-atomic="true" aria-live="polite" role="alert" class="divider default text">State</div><i aria-hidden="true" class="dropdown icon"></i><div aria-multiselectable="true" role="listbox" class="menu transition"><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="true" class="selected item"><span class="text">Alabama</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Alaska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arizona</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arkansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">California</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Colorado</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Connecticut</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Delaware</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Florida</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Georgia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Hawaii</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Idaho</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Illinois</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Indiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Iowa</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kentucky</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Louisiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maine</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maryland</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Massachusetts</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Michigan</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Minnesota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Mississippi</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Missouri</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Montana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nebraska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nevada</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Hampshire</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Jersey</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Mexico</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New York</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Ohio</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oklahoma</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oregon</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Pennsylvania</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Rhode Island</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Tennessee</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Texas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Utah</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Vermont</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Washington</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">West Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wisconsin</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wyoming</span></div></div></div>
+     |      ^
+SyntaxError: Unexpected token, expected ";" (26:6)
+  24 | export default DropdownExampleMultipleSearchSelection
+  25 | 
+> 26 | <div role="combobox" aria-expanded="false" class="ui fluid multiple search selection dropdown"><input type="text" aria-autocomplete="list" autoComplete="off" class="search" tabindex="0" value=""/><span class="sizer"></span><div aria-atomic="true" aria-live="polite" role="alert" class="divider default text">State</div><i aria-hidden="true" class="dropdown icon"></i><div aria-multiselectable="true" role="listbox" class="menu transition"><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="true" class="selected item"><span class="text">Alabama</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Alaska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arizona</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arkansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">California</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Colorado</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Connecticut</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Delaware</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Florida</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Georgia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Hawaii</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Idaho</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Illinois</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Indiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Iowa</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kentucky</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Louisiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maine</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maryland</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Massachusetts</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Michigan</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Minnesota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Mississippi</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Missouri</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Montana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nebraska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nevada</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Hampshire</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Jersey</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Mexico</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New York</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Ohio</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oklahoma</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oregon</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Pennsylvania</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Rhode Island</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Tennessee</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Texas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Utah</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Vermont</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Washington</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">West Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wisconsin</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wyoming</span></div></div></div>
+     |      ^
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 8:37:28 AM] Formatting completed in 102.615599ms.
+["INFO" - 8:37:33 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js
+["INFO" - 8:37:33 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 8:37:33 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:37:33 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:37:33 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js",
+  "parser": "babel"
+}
+["ERROR" - 8:37:33 AM] Error formatting document.
+["ERROR" - 8:37:33 AM] Unexpected token, expected ";" (26:6)
+  24 | export default DropdownExampleMultipleSearchSelection
+  25 | 
+> 26 | <div role="combobox" aria-expanded="false" class="ui fluid multiple search selection dropdown"><input type="text" aria-autocomplete="list" autoComplete="off" class="search" tabindex="0" value=""/><span class="sizer"></span><div aria-atomic="true" aria-live="polite" role="alert" class="divider default text">State</div><i aria-hidden="true" class="dropdown icon"></i><div aria-multiselectable="true" role="listbox" class="menu transition"><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="true" class="selected item"><span class="text">Alabama</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Alaska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arizona</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arkansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">California</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Colorado</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Connecticut</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Delaware</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Florida</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Georgia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Hawaii</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Idaho</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Illinois</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Indiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Iowa</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kentucky</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Louisiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maine</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maryland</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Massachusetts</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Michigan</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Minnesota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Mississippi</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Missouri</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Montana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nebraska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nevada</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Hampshire</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Jersey</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Mexico</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New York</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Ohio</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oklahoma</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oregon</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Pennsylvania</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Rhode Island</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Tennessee</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Texas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Utah</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Vermont</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Washington</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">West Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wisconsin</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wyoming</span></div></div></div>
+     |      ^
+SyntaxError: Unexpected token, expected ";" (26:6)
+  24 | export default DropdownExampleMultipleSearchSelection
+  25 | 
+> 26 | <div role="combobox" aria-expanded="false" class="ui fluid multiple search selection dropdown"><input type="text" aria-autocomplete="list" autoComplete="off" class="search" tabindex="0" value=""/><span class="sizer"></span><div aria-atomic="true" aria-live="polite" role="alert" class="divider default text">State</div><i aria-hidden="true" class="dropdown icon"></i><div aria-multiselectable="true" role="listbox" class="menu transition"><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="true" class="selected item"><span class="text">Alabama</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Alaska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arizona</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Arkansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">California</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Colorado</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Connecticut</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Delaware</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Florida</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Georgia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Hawaii</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Idaho</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Illinois</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Indiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Iowa</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kansas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Kentucky</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Louisiana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maine</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Maryland</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Massachusetts</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Michigan</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Minnesota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Mississippi</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Missouri</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Montana</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nebraska</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Nevada</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Hampshire</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Jersey</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New Mexico</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">New York</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">North Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Ohio</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oklahoma</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Oregon</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Pennsylvania</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Rhode Island</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Carolina</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">South Dakota</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Tennessee</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Texas</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Utah</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Vermont</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Washington</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">West Virginia</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wisconsin</span></div><div style="pointer-events:all" role="option" aria-checked="false" aria-selected="false" class="item"><span class="text">Wyoming</span></div></div></div>
+     |      ^
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 8:37:33 AM] Formatting completed in 21.042967ms.
+["INFO" - 8:39:12 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 8:39:12 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 8:39:12 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:39:12 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:39:12 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 8:39:12 AM] Formatting completed in 268.212282ms.
+["INFO" - 8:39:47 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 8:39:47 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 8:39:47 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:39:47 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:39:47 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 8:39:47 AM] Formatting completed in 158.80332ms.
+["INFO" - 10:51:25 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Modal/Modal.js
+["INFO" - 10:51:26 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 10:51:26 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 10:51:26 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:51:26 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Modal/Modal.js",
+  "parser": "babel"
+}
+["INFO" - 10:51:26 AM] Formatting completed in 109.745595ms.
+["INFO" - 10:57:13 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Modal/Modal.js
+["INFO" - 10:57:13 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 10:57:13 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 10:57:13 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:57:13 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Modal/Modal.js",
+  "parser": "babel"
+}
+["INFO" - 10:57:13 AM] Formatting completed in 65.766669ms.
+["INFO" - 11:12:34 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js
+["INFO" - 11:12:34 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 11:12:34 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 11:12:34 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 11:12:34 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js",
+  "parser": "babel"
+}
+["INFO" - 11:12:34 AM] Formatting completed in 65.20128ms.
+["INFO" - 11:24:59 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 11:24:59 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 11:24:59 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 11:24:59 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 11:24:59 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 11:24:59 AM] Formatting completed in 139.919996ms.
+["INFO" - 11:55:05 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js
+["INFO" - 11:55:05 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 11:55:05 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 11:55:05 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 11:55:05 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js",
+  "parser": "babel"
+}
+["INFO" - 11:55:05 AM] Formatting completed in 64.63179ms.
+["INFO" - 2:06:49 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js
+["INFO" - 2:06:49 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 2:06:49 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:06:49 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:06:49 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js",
+  "parser": "babel"
+}
+["INFO" - 2:06:49 PM] Formatting completed in 96.794952ms.
+["INFO" - 3:06:47 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Modal/Modal.js
+["INFO" - 3:06:47 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 3:06:47 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 3:06:48 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 3:06:48 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Modal/Modal.js",
+  "parser": "babel"
+}
+["INFO" - 3:06:48 PM] Formatting completed in 85.326495ms.
+["INFO" - 4:22:25 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 4:22:25 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 4:22:25 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:22:25 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:22:25 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 4:22:25 PM] Formatting completed in 143.638776ms.
+["INFO" - 4:29:07 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js
+["INFO" - 4:29:07 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 4:29:07 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:29:07 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:29:07 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js",
+  "parser": "babel"
+}
+["INFO" - 4:29:07 PM] Formatting completed in 97.750556ms.
+["INFO" - 6:39:17 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js
+["INFO" - 6:39:17 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:39:17 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:39:18 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:39:18 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/MultipleDropdown/MultipleDropdown.js",
+  "parser": "babel"
+}
+["INFO" - 6:39:18 PM] Formatting completed in 108.025764ms.
+["INFO" - 6:43:27 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 6:43:27 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:43:27 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:43:27 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:43:27 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["ERROR" - 6:43:27 PM] Error formatting document.
+["ERROR" - 6:43:27 PM] Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+SyntaxError: Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 6:43:27 PM] Formatting completed in 75.529038ms.
+["INFO" - 6:43:28 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 6:43:28 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:43:28 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:43:28 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:43:28 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["ERROR" - 6:43:28 PM] Error formatting document.
+["ERROR" - 6:43:28 PM] Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+SyntaxError: Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 6:43:28 PM] Formatting completed in 41.89522ms.
+["INFO" - 6:43:30 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 6:43:30 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:43:30 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:43:30 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:43:30 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["ERROR" - 6:43:30 PM] Error formatting document.
+["ERROR" - 6:43:30 PM] Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+SyntaxError: Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 6:43:30 PM] Formatting completed in 35.179056ms.
+["INFO" - 6:43:30 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 6:43:30 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:43:30 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:43:30 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:43:30 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["ERROR" - 6:43:30 PM] Error formatting document.
+["ERROR" - 6:43:30 PM] Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+SyntaxError: Unexpected token, expected "," (510:3)
+  508 |   }
+  509 | 
+> 510 |   handleOpenModal = (open) => {
+      |   ^
+  511 |     this.setState({
+  512 |       open: true,
+  513 |     });
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 6:43:30 PM] Formatting completed in 25.985029ms.
+["INFO" - 7:14:42 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 7:14:42 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:14:42 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:14:42 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:14:42 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 7:14:42 PM] Formatting completed in 170.950977ms.
+["INFO" - 7:15:32 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 7:15:32 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:15:32 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:15:32 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:15:32 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 7:15:32 PM] Formatting completed in 96.745828ms.
+["INFO" - 7:24:28 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 7:24:28 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:24:28 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:24:28 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:24:28 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["ERROR" - 7:24:28 PM] Error formatting document.
+["ERROR" - 7:24:28 PM] Unexpected token (517:13)
+  515 |               color: "hsl(700, 70%, 50%)",
+  516 |               data: result.
+> 517 |             }
+      |             ^
+  518 |           ],
+  519 |         });
+  520 |       })
+SyntaxError: Unexpected token (517:13)
+  515 |               color: "hsl(700, 70%, 50%)",
+  516 |               data: result.
+> 517 |             }
+      |             ^
+  518 |           ],
+  519 |         });
+  520 |       })
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 7:24:28 PM] Formatting completed in 64.728833ms.
+["INFO" - 7:25:25 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 7:25:25 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:25:25 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:25:25 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:25:25 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["ERROR" - 7:25:25 PM] Error formatting document.
+["ERROR" - 7:25:25 PM] Unexpected token (521:13)
+  519 |               color: "hsl(700, 70%, 50%)",
+  520 |               data: result.
+> 521 |             }
+      |             ^
+  522 |           ],
+  523 |         });
+  524 |       })
+SyntaxError: Unexpected token (521:13)
+  519 |               color: "hsl(700, 70%, 50%)",
+  520 |               data: result.
+> 521 |             }
+      |             ^
+  522 |           ],
+  523 |         });
+  524 |       })
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 7:25:25 PM] Formatting completed in 36.022666ms.
+["INFO" - 7:25:39 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 7:25:39 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:25:39 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:25:39 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:25:39 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 7:25:39 PM] Formatting completed in 91.603198ms.
+["INFO" - 7:26:07 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 7:26:07 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 7:26:07 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 7:26:07 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 7:26:07 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 7:26:07 PM] Formatting completed in 80.683344ms.
+["INFO" - 11:43:30 PM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 11:43:30 PM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 11:43:30 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 11:43:30 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 11:43:30 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 11:43:30 PM] Formatting completed in 180.65409ms.
+["INFO" - 2:08:04 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 2:08:04 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 2:08:04 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:08:04 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:08:04 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 2:08:04 AM] Formatting completed in 433.288418ms.
