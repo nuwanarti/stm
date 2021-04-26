@@ -36,8 +36,7 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor",
-                                    "enabled": false
+                                    "label": "&&Reopen Closed Editor"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -1440,7 +1439,7 @@
             "backupPath": "/Users/rt/Documents/famnit/stmDashboard/Backups/2643ad74df2477f4f00af1416a5151e5",
             "uiState": {
                 "mode": 1,
-                "x": 27,
+                "x": 55,
                 "y": 36,
                 "width": 1825,
                 "height": 1089

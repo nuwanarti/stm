@@ -39,7 +39,7 @@ const MyModal = ({ open, obj, handleAucAcc }) => {
     <Modal
       // centered={true}
       className="modal-wrapper"
-      dimmer={"bluring"}
+      // dimmer={"bluring"}
       size={"small"}
       open={op}
       onClose={() => close()}

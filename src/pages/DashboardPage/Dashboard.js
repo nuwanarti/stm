@@ -1,5 +1,8 @@
+/* eslint-disable no-sequences */
 import React, { Component } from "react";
 import { Segment, Grid, Loader, Dimmer } from "semantic-ui-react";
+import { scroller } from "react-scroll";
+
 import LineChartComponent from "../../components/Chart/LineChartComponent";
 import FullCalendar from "../../components/Calendar/FullCalendar";
 
@@ -8,6 +11,9 @@ import MyResponsiveScatterPlot from "../../components/ScatterPlot/ScatterPlot";
 import MyResponsiveSankey from "../../components/Sankey/Sankey";
 
 import MultipleSearchSelection from "../../components/MultipleDropdown/MultipleDropdown";
+
+import SortableTable from "../../components/SortableTable/SortableTable";
+
 // import MyModal from "../../components/Modal/Modal";
 
 import "./Dashboard.css";
@@ -335,6 +341,11 @@ class Dashboard extends Component {
             target: "GOOD",
             value: 10 * 5,
           },
+          // {
+          //   source: "Glass",
+          //   target: "Plastics",
+          //   value: 10 * 5,
+          // },
           {
             source: "Woods",
             target: "MEDIUM",
@@ -387,24 +398,30 @@ class Dashboard extends Component {
           },
         ],
       },
+      sankyData: [], // data for sanky diagram, regular objects
       ready: false,
+      tableData: [],
+      passedRefs: [],
+      initialRegressedData: [],
     };
+    this.myRef = [];
   }
 
   componentDidMount() {
     fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/")
+    // fetch("http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/")
       .then((response) => response.json())
       .then((data) => {
         data = data.data;
-        data = data.map((o) => ({
-          x: o.transmissionCoe,
-          y: (o.auc + o.accuracy) / 2,
-          matName: o.matName,
-          id: o.id,
-        }));
-
+        data = data.map((o) => {
+          o["x"] = o.transmissionCoe;
+          o["y"] = (o.auc + o.accuracy) / 2;
+          o["matId"] = o.id;
+          return o;
+        });
         fetch(
-          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/"
+          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/",
+          // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/"
         )
           .then((response) => response.json())
           .then((d) => {
@@ -436,18 +453,25 @@ class Dashboard extends Component {
                   color: "#4FFF33",
                   data: data,
                 },
-                {
-                  id: "linRegTrain",
-                  color: "#DE6260",
-                  data: train,
-                },
+                // {
+                //   id: "linRegTrain",
+                //   color: "#DE6260",
+                //   data: train,
+                // },
                 {
                   id: "linRegTest",
                   color: "#F4FD35",
                   data: test,
                 },
               ],
+              initialRegressedData: data,
             });
+            this.setState({
+              tableData: data,
+              sankyData: data,
+            });
+            console.log("came here");
+            console.log(data);
             // data["test"] = test;
             // data["train"] = train;
             // this.setState({data: data.data})
@@ -463,10 +487,13 @@ class Dashboard extends Component {
   // eslint-disable-next-line no-undef
   predictNewReg = (selected) => {
     this.setState({
-      ready: false
-    })
-    console.log("hi there hi there");
-    console.log(selected);
+      ready: false,
+    });
+    this.setState({
+      sankyData: selected,
+    });
+    // console.log("hi there hi there");
+    // console.log(selected);
     if (selected.length < 3) {
       alert("Please choose at least 3 materials");
       return;
@@ -477,11 +504,19 @@ class Dashboard extends Component {
       let temp = {};
       console.log("data");
       console.log(this.state.data[0]);
-      this.state.data[0].data.forEach((o) => {
+      this.state.initialRegressedData.forEach((o) => {
+        // if (o.id == obj.id) {
+        //   temp["x"] = o.x;
+        //   temp["y"] = (obj.acc + obj.auc) / 2;
+        //   temp["id"] = obj.id
+        // }
         if (o.id == obj.id) {
+          temp = { ...o };
           temp["x"] = o.x;
           temp["y"] = (obj.acc + obj.auc) / 2;
         }
+
+        // return o
       });
       return temp;
     });
@@ -507,6 +542,7 @@ class Dashboard extends Component {
 
     fetch(
       "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/predict/",
+      // "http://localhost:5000/solidsonsoli/us-central1/cors/cat/predict/",
       requestOptions
     )
       .then((response) => response.json())
@@ -538,24 +574,40 @@ class Dashboard extends Component {
             obj.id == "linRegTrain" ||
             obj.id == "linRegTest"
         );
+        console.log("post data");
+        console.log(postData);
         this.setState({
           data: [
-            ...necessaryData,
+            // ...necessaryData,
             {
-              id: "linRegCustomizedTrain",
+              id: "Pre built",
               color: "hsl(700, 70%, 50%)",
-              data: train,
+              data: postData,
             },
             {
-              id: "linRegCustomizedTest",
+              id: "linRegTest",
               color: "hsl(700, 70%, 50%)",
               data: test,
             },
           ],
-          ready: true
+          tableData: this.state.initialRegressedData.filter(t => postData.find(o => o.id == t.id)),
+          ready: true,
         });
       })
       .catch((error) => console.log("error", error));
+  };
+
+  scrollToRow = (id) => {
+    console.log(id);
+    scroller.scrollTo("row" + id, {
+      duration: 800,
+      delay: 0,
+      smooth: "easeInOutQuart",
+    });
+
+    this.setState({
+      current: id,
+    });
   };
 
   // eslint-disable-next-line no-undef
@@ -571,7 +623,8 @@ class Dashboard extends Component {
           <Grid.Column width={16}>
             <Segment style={{ height: "70px" }}>
               <MultipleSearchSelection
-                data={this.state.data}
+                // data={this.state.data}
+                data={this.state.initialRegressedData}
                 predictNewReg={this.predictNewReg}
                 // handleOpenModal={this.handleOpenModal}
               />
@@ -582,9 +635,13 @@ class Dashboard extends Component {
           <Grid.Column width={8}>
             <Segment>
               {/* <FullCalendar data={this.state.data} /> */}
-              <MyResponsiveScatterPlot data={this.state.data} />
+              <MyResponsiveScatterPlot
+                // data={this.state.data}
+                data={this.state.data}
+                scrollToRow={this.scrollToRow}
+              />
               <Dimmer active={!this.state.ready}>
-                <Loader inderminate> Running Regression Model </Loader>
+                <Loader> Running Regression Model </Loader>
               </Dimmer>
             </Segment>
           </Grid.Column>
@@ -594,7 +651,23 @@ class Dashboard extends Component {
               {/* <LineChartComponent /> */}
               {/* <SyncCharts /> */}
               {/* <stories.render /> */}
-              <MyResponsiveSankey data={this.state.data3} />
+              <MyResponsiveSankey
+                data={this.state.data3}
+                sankeyData={this.state.sankyData}
+              />
+              <Dimmer active={!this.state.ready}>
+                <Loader> Processing Dataset </Loader>
+              </Dimmer>
+            </Segment>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column width={16}>
+            <Segment>
+              <SortableTable
+                tableData={this.state.tableData}
+                highlight={this.state.current}
+              />
             </Segment>
           </Grid.Column>
         </Grid.Row>
