@@ -406,6 +406,7 @@ class Dashboard extends Component {
       datDup: []
     };
     this.myRef = [];
+
   }
 
   predictData = (postData, test) => {
@@ -443,6 +444,8 @@ class Dashboard extends Component {
   }
 
   componentDidMount() {
+    // console.log('logging images')
+    // console.log(images)
     fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/")
     // fetch("http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/")
       .then((response) => response.json())
@@ -629,9 +632,9 @@ class Dashboard extends Component {
               data: test,
             },
           ],
-          tableData: this.state.initialRegressedData.filter((t) =>
-            postData.find((o) => o.id == t.id)
-          ),
+          // tableData: this.state.initialRegressedData.filter((t) =>
+          //   postData.find((o) => o.id == t.id)
+          // ),
           sankyData: postDataAndPredicted,
           ready: true,
         });
@@ -645,6 +648,7 @@ class Dashboard extends Component {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
+      offset: -55
     });
 
     this.setState({
@@ -661,17 +665,6 @@ class Dashboard extends Component {
   render() {
     return (
       <Grid columns="equal">
-        <Grid.Row>
-        <Grid.Column width={16}>
-            {/* <Segment> */}
-            <Header as="h2" icon textAlign="center" style={{ paddingTop: '20px'}}>
-              {/* <Icon name="wave-square" circular /> */}
-              <Header.Content>Tranmission coefficient vs Performances</Header.Content>
-            </Header>
-
-            {/* </Segment> */}
-          </Grid.Column>
-        </Grid.Row>
         <Grid.Row>
           <Grid.Column width={8}>
             <Segment>
@@ -704,7 +697,7 @@ class Dashboard extends Component {
             </Segment>
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row>
+        <Grid.Row style={{ paddingLeft: '50px', paddingRight: '50px'}}>
           <Grid.Column width={16}>
             <Segment style={{ height: "70px" }}>
               <MultipleSearchSelection
@@ -716,7 +709,7 @@ class Dashboard extends Component {
             </Segment>
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row>
+        <Grid.Row style={{ paddingLeft: '50px', paddingRight: '50px'}}>
           <Grid.Column width={16}>
             <Segment>
               <SortableTable

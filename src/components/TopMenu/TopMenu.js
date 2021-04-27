@@ -31,7 +31,7 @@ class TopMenu extends Component {
             <Link
               to="dashboard"
               style={{
-                textAlign: "center",
+                textAlign: "left",
                 width: "300px",
                 fontSize: "1em",
                 color: "#3cbfc8",
@@ -56,7 +56,7 @@ class TopMenu extends Component {
               to="home"
             >
             <Icon name="home" size="large" style={iconStyle} />
-            <span>Home</span>
+            <span>Catalogue</span>
             </Link>
           </Menu.Item>
 

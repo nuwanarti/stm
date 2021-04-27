@@ -2404,3 +2404,189 @@ SyntaxError: Adjacent JSX elements must be wrapped in an enclosing tag. Did you 
   "parser": "babel"
 }
 ["INFO" - 6:13:15 AM] Formatting completed in 45.524811ms.
+["INFO" - 8:14:50 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/App.js
+["INFO" - 8:14:50 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 8:14:50 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:14:50 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:14:50 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 8:14:50 AM] Formatting completed in 95.567157ms.
+["INFO" - 8:36:06 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/App.js
+["INFO" - 8:36:06 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 8:36:06 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 8:36:06 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 8:36:06 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/App.js",
+  "parser": "babel"
+}
+["INFO" - 8:36:06 AM] Formatting completed in 73.437682ms.
+["INFO" - 10:11:36 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js
+["INFO" - 10:11:36 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 10:11:36 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 10:11:37 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:11:37 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js",
+  "parser": "babel"
+}
+["INFO" - 10:11:37 AM] Formatting completed in 88.654449ms.
+["INFO" - 10:18:26 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js
+["INFO" - 10:18:26 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 10:18:26 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 10:18:26 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:18:26 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js",
+  "parser": "babel"
+}
+["INFO" - 10:18:26 AM] Formatting completed in 30.394537ms.
+["INFO" - 10:26:38 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js
+["INFO" - 10:26:39 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 10:26:39 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 10:26:39 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:26:39 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js",
+  "parser": "babel"
+}
+["INFO" - 10:26:39 AM] Formatting completed in 106.161286ms.
+["INFO" - 10:30:27 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js
+["INFO" - 10:30:27 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 10:30:27 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 10:30:27 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:30:27 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Modal/ImageModal.js",
+  "parser": "babel"
+}
+["INFO" - 10:30:27 AM] Formatting completed in 63.997623ms.

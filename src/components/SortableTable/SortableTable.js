@@ -3,7 +3,10 @@ import _ from "lodash";
 import React, { useEffect, useReducer, useState, useRef } from "react";
 import { scroller } from "react-scroll";
 import { Table } from "semantic-ui-react";
-import im from './1_200.jpeg'
+// import im from './1_200.jpeg'
+import images from '../../components/Images/Images'
+
+import ImageModal from '../../components/Modal/ImageModal'
 
 // const tableData = [
 //   { matName: 'abc', accuracy: 0.96, auc: .017 },
@@ -71,6 +74,15 @@ const SortableTable = ({ tableData, highlight }) => {
 //   };
 
 //   useMountEffect(handleClick); // Scroll on mount
+
+  const getImage = (id) => {
+    let str = id + "\..*"
+    let re = new RegExp(str, 'g')
+    let img = images.find(im => im.match(re))
+    console.log('found image')
+    console.log(img)
+    return img
+  }
 
   return (
     <Table sortable celled fixed striped style={{ fontSize: '0.8em' }}>
@@ -179,7 +191,11 @@ const SortableTable = ({ tableData, highlight }) => {
                 <Table.Cell>{insertionLoss}</Table.Cell>
                 <Table.Cell>{signalToNoice}</Table.Cell>
                 <Table.Cell>{peakToPeakAmp}</Table.Cell>
-                <Table.Cell><img src={im} alt="logo" width="100px" heigh="100px"/></Table.Cell>
+                
+                <Table.Cell><ImageModal image={getImage(id + '_c')}/></Table.Cell>
+                <Table.Cell><ImageModal image={getImage(id)}/></Table.Cell>
+                <Table.Cell><ImageModal image={getImage(id + '_200')}/></Table.Cell>
+                <Table.Cell><ImageModal image={getImage(id + '_SR')}/></Table.Cell>
               </Table.Row>
             )
           )}
