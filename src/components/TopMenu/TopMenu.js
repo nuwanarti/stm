@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router';
-import { Menu, Icon, Dropdown } from 'semantic-ui-react';
-import TopSearch from './TopSearch';
-import MyMenu from './MyMenu';
-import Notification from '../Notification/Notification';
-import './TopMenu.css';
+import React, { Component } from "react";
+import { Link } from "react-router";
+import { Menu, Icon, Dropdown, Header } from "semantic-ui-react";
+import TopSearch from "./TopSearch";
+import MyMenu from "./MyMenu";
+import Notification from "../Notification/Notification";
+import "./TopMenu.css";
 
 class TopMenu extends Component {
-  state = { activeItem: 'inbox' };
+  state = { activeItem: "inbox" };
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
@@ -15,43 +15,71 @@ class TopMenu extends Component {
     const { activeItem } = this.state;
 
     let iconStyle = {
-      margin: '0 10px 0 0'
+      margin: "0 10px 0 0",
     };
 
     return (
       <Menu pointing secondary className="top-menu">
-        <Menu.Menu postion="left" className="menu-logo">
+        <Menu.Menu>
           <Menu.Item>
-            <Link to="dashboard">Sensing Through Material</Link>
+            {/* <Link to="dashboard">
+              CATALOGUE OF MATERIALS FOR \nMILLIMETRE WEAVELENGTH RADAR SENSING
+            </Link> */}
+            {/* <Header as="h2" icon> */}
+            {/* <Icon name="settings" /> */}
+            {/* <div > */}
+            <Link
+              to="dashboard"
+              style={{
+                textAlign: "center",
+                width: "300px",
+                fontSize: "1em",
+                color: "#3cbfc8",
+              }}
+            >
+              Catalogue of Materials for Millimetre Wavelength Radar Sensing
+            </Link>
+            {/* </div> */}
+            {/* <Header.Subheader>
+                Manage your account settings and set e-mail preferences.
+              </Header.Subheader> */}
+            {/* </Header> */}
           </Menu.Item>
         </Menu.Menu>
         <Menu.Menu className="center menu">
           <Menu.Item
             name="home"
-            active={activeItem === 'home'}
+            active={activeItem === "home"}
             onClick={this.handleItemClick}
           >
+          <Link
+              to="home"
+            >
             <Icon name="home" size="large" style={iconStyle} />
             <span>Home</span>
+            </Link>
           </Menu.Item>
 
           <Menu.Item
             name="browser"
-            active={activeItem === 'browser'}
+            active={activeItem === "browser"}
             onClick={this.handleItemClick}
           >
-            <Icon name="line chart" size="large" style={iconStyle} />
-            <span>Data</span>
+            <Link
+              to="howTo"
+            >
+              <Icon name="line chart" size="large" style={iconStyle} />
+              <span>How To?</span>
+            </Link>
           </Menu.Item>
-
           {/* <Menu.Item
             name="portfolio"
             active={activeItem === 'portfolio'}
             onClick={this.handleItemClick}
           > */}
-            {/* <Icon name="cubes" size="large" style={iconStyle} />
+          {/* <Icon name="cubes" size="large" style={iconStyle} />
             <span>Portfolio</span> */}
-            {/* <Dropdown>
+          {/* <Dropdown>
               <Dropdown.Menu>
                 <Dropdown.Header>Categories</Dropdown.Header>
                 <Dropdown.Item>Home Goods</Dropdown.Item>
@@ -66,9 +94,7 @@ class TopMenu extends Component {
         </Menu.Menu>
 
         <Menu.Menu position="right">
-          <Menu.Item>
-            <TopSearch />
-          </Menu.Item>
+          <Menu.Item>{/* <TopSearch /> */}</Menu.Item>
           {/* <Menu.Item name="notification" onClick={this.handleItemClick}>
             <Notification icon="alarm outline" numOfNew={3} />
           </Menu.Item> */}

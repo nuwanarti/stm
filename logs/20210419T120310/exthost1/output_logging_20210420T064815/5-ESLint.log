@@ -432,3 +432,5 @@
     at K (/Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:15179)
     at /Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/server/out/eslintServer.js:1:17187
 (node:77021) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
+[Info  - 6:14:15 AM] name.toLowerCase is not a function
+[Info  - 6:14:16 AM] name.toLowerCase is not a function

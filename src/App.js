@@ -10,7 +10,7 @@ class App extends Component {
     return (
       <div className="App">
         <TopMenu />
-        <LeftMenu />
+        {/* <LeftMenu /> */}
         <MainContainer>
           {this.props.children}
         </MainContainer>

@@ -114,12 +114,12 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
   return (
     <Grid>
       <Grid.Row>
-        <Grid.Column width={12}>
+        <Grid.Column width={13}>
           {/* <Form> */}
           <Dropdown
             style
             width={10}
-            placeholder="Please select the materials"
+            placeholder="Please add material a minimum of 3 materials"
             fluid
             multiple
             search
@@ -147,23 +147,35 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
             }}
             options={_.map(categories, (obj, index) => ({
               key: obj.id,
-              text: obj.matName + " T: " + obj.thickness,
+              text: obj.matName + " (" + obj.thickness + "mm)",
               value: obj.id,
             }))}
             style={{ marginRight: "10px" }}
           />
         </Grid.Column>
-        <Grid.Column width={1}>
+        <Grid.Column width={2}>
           <Button
             color="teal"
             compact
             onClick={() => predictNewReg(selected)}
             width={3}
+            disabled={selected.length>2?false : true}
           >
-            Build Model
+            Build Custom Model
           </Button>
         </Grid.Column>
-        <Grid.Column width={3}>
+        <Grid.Column width={1}>
+        <Button
+            color="red"
+            compact
+            onClick={() => window.location.reload()}
+            width={3}
+            // disabled={selected.length>2?false : true}
+          >
+            Reset
+          </Button>
+        </Grid.Column>
+        <Grid.Column width={3} style={{ display: 'none'}}>
           <Dropdown
             style={{ marginLeft: '20px'}}
             search

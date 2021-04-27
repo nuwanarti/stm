@@ -1943,3 +1943,464 @@ SyntaxError: Adjacent JSX elements must be wrapped in an enclosing tag. Did you 
   "parser": "babel"
 }
 ["INFO" - 7:40:19 PM] Formatting completed in 229.303473ms.
+["INFO" - 12:07:14 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js
+["INFO" - 12:07:14 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 12:07:14 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:07:14 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:07:14 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js",
+  "parser": "babel"
+}
+["INFO" - 12:07:14 AM] Formatting completed in 156.520075ms.
+["INFO" - 12:20:55 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js
+["INFO" - 12:20:55 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 12:20:55 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:20:55 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:20:55 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js",
+  "parser": "babel"
+}
+["INFO" - 12:20:56 AM] Formatting completed in 82.256739ms.
+["INFO" - 12:21:39 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js
+["INFO" - 12:21:39 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 12:21:39 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:21:39 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:21:39 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js",
+  "parser": "babel"
+}
+["ERROR" - 12:21:39 AM] Error formatting document.
+["ERROR" - 12:21:39 AM] Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (99:9)
+   97 |         </Menu.Menu>
+   98 | 
+>  99 |         <Menu.Menu position="right">
+      |         ^
+  100 |           <Menu.Item>{/* <TopSearch /> */}</Menu.Item>
+  101 |           {/* <Menu.Item name="notification" onClick={this.handleItemClick}>
+  102 |             <Notification icon="alarm outline" numOfNew={3} />
+SyntaxError: Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a JSX fragment <>...</>? (99:9)
+   97 |         </Menu.Menu>
+   98 | 
+>  99 |         <Menu.Menu position="right">
+      |         ^
+  100 |           <Menu.Item>{/* <TopSearch /> */}</Menu.Item>
+  101 |           {/* <Menu.Item name="notification" onClick={this.handleItemClick}>
+  102 |             <Notification icon="alarm outline" numOfNew={3} />
+	at t (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:379)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/parser-babel.js:1:346226)
+	at Object.parse (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:13625:19)
+	at coreFormat (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:14899:14)
+	at format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:15131:14)
+	at /Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57542:12
+	at Object.format (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/node_modules/prettier/index.js:57562:12)
+	at t.default.<anonymous> (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:16897)
+	at Generator.next (<anonymous>)
+	at s (/Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.3.2/dist/extension.js:1:9119)
+["INFO" - 12:21:39 AM] Formatting completed in 35.153484ms.
+["INFO" - 12:21:45 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js
+["INFO" - 12:21:45 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 12:21:45 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 12:21:45 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 12:21:45 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/TopMenu/TopMenu.js",
+  "parser": "babel"
+}
+["INFO" - 12:21:45 AM] Formatting completed in 44.598547ms.
+["INFO" - 1:05:18 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 1:05:18 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 1:05:18 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:05:18 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:05:18 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["INFO" - 1:05:19 AM] Formatting completed in 199.941427ms.
+["INFO" - 1:06:16 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js
+["INFO" - 1:06:16 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 1:06:16 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 1:06:16 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 1:06:16 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/ScatterPlot/ScatterPlot.js",
+  "parser": "babel"
+}
+["INFO" - 1:06:16 AM] Formatting completed in 102.503882ms.
+["INFO" - 2:08:00 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 2:08:00 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 2:08:00 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:08:00 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:08:00 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 2:08:00 AM] Formatting completed in 201.861335ms.
+["INFO" - 2:08:34 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+["INFO" - 2:08:34 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 2:08:34 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 2:08:34 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 2:08:34 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js",
+  "parser": "babel"
+}
+["INFO" - 2:08:34 AM] Formatting completed in 175.451631ms.
+["INFO" - 4:04:05 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js
+["INFO" - 4:04:05 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 4:04:05 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:04:05 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:04:05 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js",
+  "parser": "babel"
+}
+["INFO" - 4:04:05 AM] Formatting completed in 154.63713ms.
+["INFO" - 4:10:26 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js
+["INFO" - 4:10:26 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 4:10:26 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:10:26 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:10:26 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js",
+  "parser": "babel"
+}
+["INFO" - 4:10:26 AM] Formatting completed in 108.468982ms.
+["INFO" - 4:15:20 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js
+["INFO" - 4:15:20 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 4:15:20 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:15:20 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:15:20 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js",
+  "parser": "babel"
+}
+["INFO" - 4:15:20 AM] Formatting completed in 117.670056ms.
+["INFO" - 4:49:04 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js
+["INFO" - 4:49:04 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 4:49:04 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 4:49:04 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 4:49:04 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/components/Sankey/Sankey.js",
+  "parser": "babel"
+}
+["INFO" - 4:49:05 AM] Formatting completed in 133.701836ms.
+["INFO" - 5:55:41 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DropdownPage/Dropdowns.js
+["INFO" - 5:55:41 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 5:55:41 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 5:55:41 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 5:55:41 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DropdownPage/Dropdowns.js",
+  "parser": "babel"
+}
+["INFO" - 5:55:41 AM] Formatting completed in 97.800729ms.
+["INFO" - 6:13:15 AM] Formatting /Users/rt/Documents/famnit/stmDashboard/src/pages/DropdownPage/Dropdowns.js
+["INFO" - 6:13:15 AM] Using ignore file (if present) at /Users/rt/Documents/famnit/stmDashboard/.prettierignore
+["INFO" - 6:13:15 AM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "babel"
+}
+["INFO" - 6:13:15 AM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 6:13:15 AM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/Users/rt/Documents/famnit/stmDashboard/src/pages/DropdownPage/Dropdowns.js",
+  "parser": "babel"
+}
+["INFO" - 6:13:15 AM] Formatting completed in 45.524811ms.

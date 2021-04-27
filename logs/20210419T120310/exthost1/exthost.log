@@ -4208,3 +4208,272 @@ Error: Debug Failure. Token and statement should start at the same point. {"stat
 	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
 	at runMicrotasks (<anonymous>)
 	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 01:04:43.469] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 01:04:43.471] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 01:06:15.066] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 01:06:15.066] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 01:06:34.478] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 01:06:34.479] [exthost] [error] Error: <semantic> TypeScript Server Error (4.1.2)
+Debug Failure. Token and statement should start at the same point. {"statementKind":"VariableStatement","tokenKind":"CloseBraceToken","errorCode":7027,"start":966,"length":382}
+Error: Debug Failure. Token and statement should start at the same point. {"statementKind":"VariableStatement","tokenKind":"CloseBraceToken","errorCode":7027,"start":966,"length":382}
+    at doChange (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:138345:26)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:138328:96
+    at Function.ChangeTracker.with (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:132349:17)
+    at Object.getCodeActions (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:138328:64)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:133528:77
+    at Object.flatMap (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:513:25)
+    at Object.getFixes (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:133528:23)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:147037:35
+    at Object.flatMap (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:513:25)
+    at Proxy.getCodeFixesAtPosition (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:147035:23)
+    at TSLintPlugin.getCodeFixesAtPosition (/Users/rt/.vscode/extensions/ms-vscode.vscode-typescript-tslint-plugin-1.3.3/node_modules/typescript-tslint-plugin/out/plugin.js:178:34)
+    at Proxy.intercept.getCodeFixesAtPosition (/Users/rt/.vscode/extensions/ms-vscode.vscode-typescript-tslint-plugin-1.3.3/node_modules/typescript-tslint-plugin/out/plugin.js:79:25)
+    at IOSession.Session.getCodeFixes (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:157976:64)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:156653:61)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:88
+    at IOSession.Session.executeWithRequestId (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158267:28)
+    at IOSession.Session.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:33)
+    at IOSession.Session.onMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158300:35)
+    at Interface.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:27)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:329:10)
+    at Interface._normalWrite (readline.js:474:12)
+    at Socket.ondata (readline.js:186:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+	at Function.create (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:73508)
+	at dispatchResponse (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:67383)
+	at dispatchMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:66242)
+	at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:65752
+	at v.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at g.onLengthData (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:60030)
+	at Socket.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:59678)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-27 01:16:52.879] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 01:16:52.880] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 02:09:27.524] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 02:09:27.525] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 02:20:26.275] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 02:20:26.276] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 02:20:35.125] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 02:20:35.126] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 02:29:42.948] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 02:29:42.949] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 02:59:39.920] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 02:59:39.921] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:03:31.435] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:03:31.436] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:09:49.028] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:09:49.028] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:16:55.173] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:16:55.173] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:33:44.963] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:33:44.963] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:37:45.582] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:37:45.582] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:37:56.958] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:37:56.958] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:43:33.674] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:43:33.675] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 04:44:02.518] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 04:44:02.518] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-04-27 05:47:40.020] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 05:47:40.021] [exthost] [error] Error: <semantic> TypeScript Server Error (4.1.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128621:34
+    at Object.forEach (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:188:30)
+    at getSymbolKindOfConstructorPropertyMethodAccessorFunctionOrVar (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128615:48)
+    at Object.getSymbolKind (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128545:26)
+    at createCompletionEntry (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118152:40)
+    at getCompletionEntriesFromSymbols (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118199:29)
+    at completionInfoFromData (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118023:35)
+    at Object.getCompletionsAtPosition (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:117981:28)
+    at Proxy.getCompletionsAtPosition (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:146718:35)
+    at IOSession.Session.getCompletions (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:157642:64)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:156526:61)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:88
+    at IOSession.Session.executeWithRequestId (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158267:28)
+    at IOSession.Session.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:33)
+    at IOSession.Session.onMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158300:35)
+    at Interface.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:27)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:329:10)
+    at Interface._normalWrite (readline.js:474:12)
+    at Socket.ondata (readline.js:186:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+	at Function.create (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:73508)
+	at dispatchResponse (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:67383)
+	at dispatchMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:66242)
+	at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:65752
+	at v.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at g.onLengthData (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:60030)
+	at Socket.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:59678)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-27 05:54:18.144] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 05:54:18.144] [exthost] [error] Error: <semantic> TypeScript Server Error (4.1.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128621:34
+    at Object.forEach (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:188:30)
+    at getSymbolKindOfConstructorPropertyMethodAccessorFunctionOrVar (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128615:48)
+    at Object.getSymbolKind (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128545:26)
+    at createCompletionEntry (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118152:40)
+    at getCompletionEntriesFromSymbols (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118199:29)
+    at completionInfoFromData (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118023:35)
+    at Object.getCompletionsAtPosition (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:117981:28)
+    at Proxy.getCompletionsAtPosition (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:146718:35)
+    at IOSession.Session.getCompletions (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:157642:64)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:156526:61)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:88
+    at IOSession.Session.executeWithRequestId (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158267:28)
+    at IOSession.Session.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:33)
+    at IOSession.Session.onMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158300:35)
+    at Interface.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:27)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:329:10)
+    at Interface._normalWrite (readline.js:474:12)
+    at Socket.ondata (readline.js:186:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+	at Function.create (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:73508)
+	at dispatchResponse (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:67383)
+	at dispatchMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:66242)
+	at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:65752
+	at v.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at g.onLengthData (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:60030)
+	at Socket.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:59678)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-27 06:16:42.110] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 06:16:42.111] [exthost] [error] Error: <semantic> TypeScript Server Error (4.1.2)
+Debug Failure. False expression.
+Error: Debug Failure. False expression.
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128621:34
+    at Object.forEach (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:188:30)
+    at getSymbolKindOfConstructorPropertyMethodAccessorFunctionOrVar (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128615:48)
+    at Object.getSymbolKind (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:128545:26)
+    at createCompletionEntry (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118152:40)
+    at getCompletionEntriesFromSymbols (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118199:29)
+    at completionInfoFromData (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:118023:35)
+    at Object.getCompletionsAtPosition (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:117981:28)
+    at Proxy.getCompletionsAtPosition (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:146718:35)
+    at IOSession.Session.getCompletions (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:157642:64)
+    at Session.handlers.ts.Map.ts.getEntries._a.<computed> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:156526:61)
+    at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:88
+    at IOSession.Session.executeWithRequestId (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158267:28)
+    at IOSession.Session.executeCommand (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158276:33)
+    at IOSession.Session.onMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:158300:35)
+    at Interface.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/node_modules/typescript/lib/tsserver.js:160510:27)
+    at Interface.emit (events.js:315:20)
+    at Interface._onLine (readline.js:329:10)
+    at Interface._normalWrite (readline.js:474:12)
+    at Socket.ondata (readline.js:186:10)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+	at Function.create (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:73508)
+	at dispatchResponse (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:67383)
+	at dispatchMessage (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:66242)
+	at /Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:1:65752
+	at v.fire (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:1836)
+	at g.onLengthData (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:60030)
+	at Socket.<anonymous> (/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/typescript-language-features/dist/extension.js:45:59678)
+	at Socket.emit (events.js:315:20)
+	at addChunk (_stream_readable.js:295:12)
+	at readableAddChunk (_stream_readable.js:271:9)
+	at Socket.Readable.push (_stream_readable.js:212:10)
+	at Pipe.onStreamRead (internal/stream_base_commons.js:186:23)
+[2021-04-27 06:16:43.208] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2021-04-27 06:16:43.211] [exthost] [error] Error: DisposableStore is missing...
+	at B._convertCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152560)
+	at B.resolveCompletionItem (/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:86:152297)
+	at runMicrotasks (<anonymous>)
+	at processTicksAndRejections (internal/process/task_queues.js:97:5)

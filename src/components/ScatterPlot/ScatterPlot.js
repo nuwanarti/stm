@@ -1,33 +1,67 @@
 import React, { Fragment, useState, useEffect, useRef } from "react";
 import { line, area } from "d3-shape";
 import { ScatterPlot, ResponsiveScatterPlot } from "@nivo/scatterplot";
-import { Bar } from "@nivo/bar";
+import { Popup } from 'semantic-ui-react'
 
 // import {Link} from 'react-scroll'
 
 const barColor = "#0095ff";
 const lineColor = "rgba(200, 30, 15, 1)";
 const areaColor = "#0095ff";
-
+// 39, 147, 33
+// 120, 67, 59
+// 252, 106, 15,
+// 27, 98, 165
+// 201, 17, 31
+128, 78, 175
 const Line = ({ nodes, xScale, yScale }) => {
   const lineGenerator = line()
     .x((node) => xScale(node.data.x))
     .y((node) => yScale(node.data.y));
 
-
-    const getColor = (temp) => {
-        if(temp >= 0 && temp < 10){
-            return '#17BECF' //23, 190, 207
-          }else if(temp >= 10 && temp < 20){
-            return '#1F77B4' // 31, 119, 1180
-          }else if(temp >= 20 && temp < 30){
-            return '#F98015' // 255, 127, 14
-          }else{
-            // console.log('thickness ')
-            // console.log(temp)
-            return '#2CA02C' //44, 160, 44
-          }
+  const getColor = (temp) => {
+    let code = "";
+    switch (temp) {
+      case "Glass":
+        code = "#3366cc";
+        break;
+      case "Plastics":
+        code = "#ff6600"//"#78433B";
+        break;
+      case "Woods":
+        code = "#53ac69";
+        break;
+      case "Paper":
+        code = "#ff0066";
+        break;
+      case "Fabrics":
+        code = "#bf00ff";
+        break;
+      case "Ceramic":
+        code = "#990033";
+        break;
+      default:
+        break;
     }
+    return code ;
+    // if (temp >= 0 && temp < 10) {
+    //   return "#17BECF"; //23, 190, 207
+    // } else if (temp >= 10 && temp < 20) {
+    //   return "#1F77B4"; // 31, 119, 1180
+    // } else if (temp >= 20 && temp < 30) {
+    //   return "#F98015"; // 255, 127, 14
+    // } else {
+    //   // console.log('thickness ')
+    //   // console.log(temp)
+    //   return "#2CA02C"; //44, 160, 44
+    // }
+  };
+
+  // const areaGenerator = area()
+  //     .x(d => xScale(d.data.x))
+  //     .y0(d => yScale(d.data.y- d.data.thickness))
+  //     .y1(d => yScale(d.data.y+ d.data.thickness))
+  //     .curve(curveMonotoneX)
 
   return (
     <Fragment>
@@ -37,6 +71,7 @@ const Line = ({ nodes, xScale, yScale }) => {
         stroke={"#0095ff"}
         style={{ pointerEvents: "painted" }}
       />
+      {/* <path d={areaGenerator(nodes)} fill="rgba(232, 193, 160, .65)" /> */}
       {/* <path
         d={lineGenerator(
           nodes.filter((n) => n.data.serieId == "linRegCustomizedTest")
@@ -75,13 +110,13 @@ const Line = ({ nodes, xScale, yScale }) => {
               cx={xScale(node.data.x)}
               cy={yScale(node.data.y)}
               r={4}
-              fill={getColor(node.data.thickness)} //"#FD5935"
-              stroke={getColor(node.data.thickness)}
+              fill={getColor(node.data.category)} //"#FD5935"
+              stroke={getColor(node.data.category)}
               style={{ pointerEvents: "none" }}
             />
           );
         })}
-      {nodes
+      {/* {nodes
         .filter((n) => n.data.serieId == "linRegTest")
         .map((node) => (
           <circle
@@ -93,7 +128,7 @@ const Line = ({ nodes, xScale, yScale }) => {
             stroke={lineColor}
             style={{ pointerEvents: "none" }}
           />
-        ))}
+        ))} */}
       {/* {nodes
         .filter((n) => n.data.serieId == "linRegCustomizedTrain")
         .map((node) => (
@@ -125,28 +160,69 @@ const Line = ({ nodes, xScale, yScale }) => {
   );
 };
 
-const MyResponsiveScatterPlot = ({ data, scrollToRow }) => {
+const MyResponsiveScatterPlot = ({ dataOriginal, scrollToRow, dataDup }) => {
+
+    const [ data, setData ] = useState([])
   //   const itemsRef = useRef([]);
 
   //   const [regOut, setRegOut] = useState([]);
 
   const getColor = (temp) => {
-    if(temp >= 0 && temp < 10){
-        return '#17BECF' //23, 190, 207
-      }else if(temp >= 10 && temp < 20){
-        return '#1F77B4' // 31, 119, 1180
-      }else if(temp >= 20 && temp < 30){
-        return '#F98015' // 255, 127, 14
-      }else{
-        // console.log('thickness ')
-        // console.log(temp)
-        return '#2CA02C' //44, 160, 44
-      }
-}
+    let code = "";
+    switch (temp) {
+      case "Glass":
+        code = "#3366cc";
+        break;
+      case "Plastics":
+        code = "#ff6600"//"#78433B";
+        break;
+      case "Woods":
+        code = "#53ac69";
+        break;
+      case "Paper":
+        code = "#ff0066";
+        break;
+      case "Fabrics":
+        code = "#bf00ff";
+        break;
+      case "Ceramic":
+        code = "#990033";
+        break;
+      default:
+        break;
+    }
+    return code ;
+  };
 
   useEffect(() => {
+
+    if(dataDup && dataDup.length > 0){
+        console.log('came to data dup')
+        let temp = [...data.filter(o => o.id == 'linRegTest'), {
+            id: 'Pre built',
+            color: '#4FFF33',
+            data: dataDup
+        }]
+        console.log(dataDup)
+        console.log(temp)
+        setData(temp)
+    }else if(dataOriginal){
+        console.log('came to data original')
+        console.log(dataOriginal)
+        setData(dataOriginal)
+    }else{
+        setData([])
+    }
     // console.log(data);
-  }, []);
+    // if(!dataDup && dataOriginal)
+    //     setData(dataOriginal)
+    // else
+    //     setData([...data.filter(o => o.id == 'linRegTest'), {
+    //         id: 'Pre built',
+    //         color: '#4FFF33',
+    //         data: dataDup
+    //     }])
+  }, [dataOriginal, dataDup]);
 
   //   const executeScroll = () => myRef.current.scrollIntoView()
 
@@ -154,20 +230,30 @@ const MyResponsiveScatterPlot = ({ data, scrollToRow }) => {
     <div style={{ height: "500px" }}>
       <ResponsiveScatterPlot
         data={data}
-        margin={{ top: 60, right: 140, bottom: 70, left: 90 }}
-        xScale={{ type: "linear", min: 0, max: "auto" }}
+        margin={{ top: 30, right: 45, bottom: 70, left: 80 }}
+        xScale={{ type: "linear", min: 0, max: 1 }}
         xFormat={function (e) {
           return e.toFixed(2);
         }}
-        yScale={{ type: "linear", min: 0, max: "auto" }}
+        yScale={{ type: "linear", min: 0, max: 100 }}
         yFormat={function (e) {
           return e.toFixed(2) + " %";
         }}
         tooltip={({ node }) => (
-          <div style={{ color: getColor(node.data.thickness), background: "#333", padding:'5px', borderRadius: '10px' }}>
+          <div
+            style={{
+              color: getColor(node.data.category),
+              background: "#CDF1FF",
+              padding: "5px",
+              borderRadius: "10px",
+              fontSize: '0.8em'
+            }}
+          >
             <strong>{node.data.matName}</strong>
             <br />
             <strong>Thickness: {node.data.thickness}</strong>
+            <br />
+            <strong>Category: {node.data.category}</strong>
             <br />
             {`x: ${node.data.x}`}
             <br />
@@ -237,7 +323,7 @@ const MyResponsiveScatterPlot = ({ data, scrollToRow }) => {
           //   "nodes",
           "markers",
           "mesh",
-        //   "legends",
+          //   "legends",
         ]}
       />
     </div>

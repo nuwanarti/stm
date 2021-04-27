@@ -19,13 +19,13 @@ ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
       <IndexRoute exact component={AsyncDashboard} />
-      <Route path="dashboard" exact component={AsyncDashboard} />
-      {/* <Route path="input" exact component={AsyncInput} />
+      <Route path="home" exact component={AsyncDashboard} />
+      <Route path="input" exact component={AsyncInput} />
       <Route path="calendar" exact component={AsyncCalendar} />
-      <Route path="dropdown" exact component={AsyncDropdowns} />
+      <Route path="howTo" exact component={AsyncDropdowns} />
       <Route path="range-picker" exact component={AsyncRangePicker} />
       <Route path="chart" exact component={AsyncChart} />
-      <Route path="layout" exact component={AsyncLayout} /> */}
+      <Route path="layout" exact component={AsyncLayout} /> 
     </Route>
   </Router>,
   document.getElementById('root')

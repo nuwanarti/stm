@@ -3,6 +3,7 @@ import _ from "lodash";
 import React, { useEffect, useReducer, useState, useRef } from "react";
 import { scroller } from "react-scroll";
 import { Table } from "semantic-ui-react";
+import im from './1_200.jpeg'
 
 // const tableData = [
 //   { matName: 'abc', accuracy: 0.96, auc: .017 },
@@ -72,14 +73,14 @@ const SortableTable = ({ tableData, highlight }) => {
 //   useMountEffect(handleClick); // Scroll on mount
 
   return (
-    <Table sortable celled fixed>
+    <Table sortable celled fixed striped style={{ fontSize: '0.8em' }}>
       <Table.Header>
         <Table.Row>
-        <Table.HeaderCell
+        <Table.HeaderCell colSpan={2}
             sorted={state.column === "matName" ? state.direction : null}
             onClick={() => dispatch({ type: "CHANGE_SORT", column: "matName" })}
           >
-            Material Name
+            Material
           </Table.HeaderCell>
           <Table.HeaderCell
             sorted={state.column === "category" ? state.direction : null}
@@ -168,7 +169,7 @@ const SortableTable = ({ tableData, highlight }) => {
               thickness,
             }) => (
               <Table.Row key={id} className={'row' + id} style={{ background: current==id?'#3cbfc8': '#fff'}}>
-                <Table.Cell>{matName}</Table.Cell>
+                <Table.Cell colSpan={2}>{matName}</Table.Cell>
                 <Table.Cell>{category}</Table.Cell>
                 <Table.Cell>{accuracy}</Table.Cell>
                 <Table.Cell>{auc}</Table.Cell>
@@ -178,6 +179,7 @@ const SortableTable = ({ tableData, highlight }) => {
                 <Table.Cell>{insertionLoss}</Table.Cell>
                 <Table.Cell>{signalToNoice}</Table.Cell>
                 <Table.Cell>{peakToPeakAmp}</Table.Cell>
+                <Table.Cell><img src={im} alt="logo" width="100px" heigh="100px"/></Table.Cell>
               </Table.Row>
             )
           )}

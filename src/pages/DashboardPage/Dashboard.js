@@ -1,6 +1,6 @@
 /* eslint-disable no-sequences */
 import React, { Component } from "react";
-import { Segment, Grid, Loader, Dimmer } from "semantic-ui-react";
+import { Segment, Grid, Loader, Dimmer, Header } from "semantic-ui-react";
 import { scroller } from "react-scroll";
 
 import LineChartComponent from "../../components/Chart/LineChartComponent";
@@ -403,8 +403,43 @@ class Dashboard extends Component {
       tableData: [],
       passedRefs: [],
       initialRegressedData: [],
+      datDup: []
     };
     this.myRef = [];
+  }
+
+  predictData = (postData, test) => {
+    console.log('printing y')
+    console.log(test)
+    let m = (test[1].y - test[0].y) / (test[1].x - test[0].x);
+    let c = test[0].y; // y intercept
+
+    // let objs = this.initialRegressedData.filter(o => !postData.find(oo => oo.id == o.id)).map(o => {
+    let objs = this.state.initialRegressedData
+      .filter((o) => !postData.find((oo) => oo.id == o.id))
+      .map((o) => {
+        // if (o["acc"]) {
+        //   return o;
+        // }
+        let y = m * o.transmissionCoe + c;
+        // o["accuracy"] = y;
+        o["auc"] = y;
+        o["acc"] = y;
+        o["x"] = o.transmissionCoe;
+        o["y"] = y
+        return o;
+      });
+
+    // return [...objs, ...postData];
+    console.log('printing objs')
+    console.log(objs)
+    return [...objs, ...postData]
+  };
+
+  filterScatterData = (ddd) => {
+    this.setState({
+      dataDup: ddd
+    })
   }
 
   componentDidMount() {
@@ -576,13 +611,17 @@ class Dashboard extends Component {
         );
         console.log("post data");
         console.log(postData);
+        let postDataAndPredicted = this.predictData(postData, test);
+        // this.setState({
+        //   sankyData: selected,
+        // });
         this.setState({
           data: [
             // ...necessaryData,
             {
               id: "Pre built",
               color: "hsl(700, 70%, 50%)",
-              data: postData,
+              data: postDataAndPredicted,
             },
             {
               id: "linRegTest",
@@ -590,7 +629,10 @@ class Dashboard extends Component {
               data: test,
             },
           ],
-          tableData: this.state.initialRegressedData.filter(t => postData.find(o => o.id == t.id)),
+          tableData: this.state.initialRegressedData.filter((t) =>
+            postData.find((o) => o.id == t.id)
+          ),
+          sankyData: postDataAndPredicted,
           ready: true,
         });
       })
@@ -620,15 +662,14 @@ class Dashboard extends Component {
     return (
       <Grid columns="equal">
         <Grid.Row>
-          <Grid.Column width={16}>
-            <Segment style={{ height: "70px" }}>
-              <MultipleSearchSelection
-                // data={this.state.data}
-                data={this.state.initialRegressedData}
-                predictNewReg={this.predictNewReg}
-                // handleOpenModal={this.handleOpenModal}
-              />
-            </Segment>
+        <Grid.Column width={16}>
+            {/* <Segment> */}
+            <Header as="h2" icon textAlign="center" style={{ paddingTop: '20px'}}>
+              {/* <Icon name="wave-square" circular /> */}
+              <Header.Content>Tranmission coefficient vs Performances</Header.Content>
+            </Header>
+
+            {/* </Segment> */}
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
@@ -637,8 +678,9 @@ class Dashboard extends Component {
               {/* <FullCalendar data={this.state.data} /> */}
               <MyResponsiveScatterPlot
                 // data={this.state.data}
-                data={this.state.data}
+                dataOriginal={this.state.data}
                 scrollToRow={this.scrollToRow}
+                dataDup={this.state.dataDup}
               />
               <Dimmer active={!this.state.ready}>
                 <Loader> Running Regression Model </Loader>
@@ -654,10 +696,23 @@ class Dashboard extends Component {
               <MyResponsiveSankey
                 data={this.state.data3}
                 sankeyData={this.state.sankyData}
+                filterScatterData={this.filterScatterData}
               />
               <Dimmer active={!this.state.ready}>
                 <Loader> Processing Dataset </Loader>
               </Dimmer>
+            </Segment>
+          </Grid.Column>
+        </Grid.Row>
+        <Grid.Row>
+          <Grid.Column width={16}>
+            <Segment style={{ height: "70px" }}>
+              <MultipleSearchSelection
+                // data={this.state.data}
+                data={this.state.initialRegressedData}
+                predictNewReg={this.predictNewReg}
+                // handleOpenModal={this.handleOpenModal}
+              />
             </Segment>
           </Grid.Column>
         </Grid.Row>
