@@ -6,33 +6,40 @@ function ImageModal({ image }) {
   const [open, setOpen] = React.useState(false);
 
   return (
-    <Modal
+    image ? <Modal
+      closeIcon
       basic
+      centered
       onClose={() => setOpen(false)}
       onOpen={() => setOpen(true)}
       open={open}
       size="small"
-      trigger={<img src={image} alt="" width="100px" height="50px" />}
+      trigger={<Image size="tiny" src={image} alt="" style={{ cursor: 'pointer', padding: '10px' }}/>}
     >
-      <Header icon>
+      {/* <Header icon> */}
         {/* <Icon name='archive' />
         Archive Old Messages */}
-      </Header>
-      <Modal.Content image style={{ position: "relative" }}>
+      {/* </Header> */}
+      <Modal.Content>
         {/* <div> */}
         {/* <div > */}
-        <img
+        <Image
           src={image}
+          size="big"
           style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            //   marginLeft: "auto",
-            //   marginRight: "auto",
-            width: "100%",
-            //   transform: 'translate(-50%, -50%)'
-            //   padding: "auto",
+            width: '100%',
+            marginTop: '10%'
           }}
+          // style={{
+          //   // position: "absolute",
+          //   // top: "50%",
+          //   // left: "50%",
+          //   //   marginLeft: "auto",
+          //   //   marginRight: "auto",
+          //   width: "100%",
+          //   //   transform: 'translate(-50%, -50%)'
+          //   //   padding: "auto",
+          // }}
         />
         {/* </div> */}
 
@@ -51,7 +58,7 @@ function ImageModal({ image }) {
           <Icon name='checkmark' /> Yes
         </Button>
       </Modal.Actions> */}
-    </Modal>
+    </Modal>: <div></div>
   );
 }
 

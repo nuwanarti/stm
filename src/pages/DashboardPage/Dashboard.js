@@ -14,6 +14,8 @@ import MultipleSearchSelection from "../../components/MultipleDropdown/MultipleD
 
 import SortableTable from "../../components/SortableTable/SortableTable";
 
+import TablePopup from "../../components/Popup/TablePopup"
+
 // import MyModal from "../../components/Modal/Modal";
 
 import "./Dashboard.css";
@@ -403,7 +405,12 @@ class Dashboard extends Component {
       tableData: [],
       passedRefs: [],
       initialRegressedData: [],
-      datDup: []
+      datDup: [],
+      tablePopupData: {
+        open: false,
+        data: {id: ''}
+      },
+      selected: []
     };
     this.myRef = [];
 
@@ -439,7 +446,8 @@ class Dashboard extends Component {
 
   filterScatterData = (ddd) => {
     this.setState({
-      dataDup: ddd
+      dataDup: ddd,
+      tableData: (ddd.length > 0 ? ddd : this.state.initialRegressedData )
     })
   }
 
@@ -524,6 +532,8 @@ class Dashboard extends Component {
 
   // eslint-disable-next-line no-undef
   predictNewReg = (selected) => {
+    console.log('selected')
+    console.log(selected)
     this.setState({
       ready: false,
     });
@@ -631,11 +641,17 @@ class Dashboard extends Component {
               color: "hsl(700, 70%, 50%)",
               data: test,
             },
+            {
+              id: "linRegTrain",
+              color: "hsl(300, 70%, 50%)",
+              data: selected
+            }
           ],
           // tableData: this.state.initialRegressedData.filter((t) =>
           //   postData.find((o) => o.id == t.id)
           // ),
           sankyData: postDataAndPredicted,
+          selected: selected,
           ready: true,
         });
       })
@@ -662,6 +678,12 @@ class Dashboard extends Component {
       open: true,
     });
   };
+
+  handleTablePopup = (data) => {
+    this.setState({
+      tablePopupData: data
+    })
+  }
   render() {
     return (
       <Grid columns="equal">
@@ -674,6 +696,7 @@ class Dashboard extends Component {
                 dataOriginal={this.state.data}
                 scrollToRow={this.scrollToRow}
                 dataDup={this.state.dataDup}
+                handleTablePopup={this.handleTablePopup}
               />
               <Dimmer active={!this.state.ready}>
                 <Loader> Running Regression Model </Loader>
@@ -699,7 +722,7 @@ class Dashboard extends Component {
         </Grid.Row>
         <Grid.Row style={{ paddingLeft: '50px', paddingRight: '50px'}}>
           <Grid.Column width={16}>
-            <Segment style={{ height: "70px" }}>
+            <Segment>
               <MultipleSearchSelection
                 // data={this.state.data}
                 data={this.state.initialRegressedData}
@@ -715,6 +738,7 @@ class Dashboard extends Component {
               <SortableTable
                 tableData={this.state.tableData}
                 highlight={this.state.current}
+                selectedFromDropdown={this.state.selected}
               />
             </Segment>
           </Grid.Column>
@@ -722,6 +746,7 @@ class Dashboard extends Component {
         {/* <div style={{ marginTop: '300px', marginLeft: '300px' }}> */}
         {/* <MyModal open={this.state.open} /> */}
         {/* </div> */}
+        {/* <TablePopup status={this.state.tablePopupData} /> */}
       </Grid>
     );
   }

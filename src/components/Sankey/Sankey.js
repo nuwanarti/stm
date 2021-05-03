@@ -12,12 +12,64 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
   const [data, setData] = useState([]);
   const [sankyInput, setSankyInput] = useState(null);
   const [btn, enable] = useState(false);
+
+  const [params, setParams] = useState([]);
+
+  const getCategories = (d) => {
+    let temp = [];
+    d.forEach((o) => {
+      temp.push(o.category);
+    });
+    return [...new Set(temp)];
+  };
+
+  const getPerf = (d) => {
+    let temp = [];
+    d.forEach((o) => {
+      temp.push(
+        o.acc
+          ? getTarget((o.acc + o.auc) / 2)
+          : getTarget((o.accuracy + o.auc) / 2)
+      );
+    });
+
+    return [...new Set(temp)];
+  };
+
+  const getSizes = (d) => {
+    let temp = [];
+    d.forEach((o) => {
+      temp.push(getThicknessTarget(o.thickness));
+    });
+    return [...new Set(temp)];
+  };
+
+  const adjustParams = (temp) => {
+    let tempCat = getCategories(temp);
+    let tempPerf = getPerf(temp);
+    let tempSizes = getSizes(temp);
+
+    setParams([...tempCat, ...tempPerf, ...tempSizes]);
+
+    // let tempCat = getCategories(data);
+    // let tempPerf = getPerf(data);
+    // let tempSizes = getSizes(data);
+
+    // setParams([...tempCat, ...tempPerf, ...tempSizes]);
+
+
+  };
+
   useEffect(() => {
     // console.log('sankey effect')
     // console.log(sankeyData)
+
     if (sankeyData.length > 0) {
       setData(sankeyData);
+      console.log("sankeydata");
+      console.log(sankeyData);
     }
+
     // setSankyInput({
     //   nodes: [],
     //   links: []
@@ -27,14 +79,7 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
   }, [sankeyData]);
 
   const genNodes = () => {
-    // const categories = [...new Set(data.map((o) => o.category))];
-    // let nodes = categories.map((c) => {
-    //   let o = {};
-    //   o["id"] = c;
-    //   o["color"] = "hsl(" + Math.round(Math.random() * 100) + ", 70%, 50%)";
-    //   return o;
-    // });
-    return [
+    let temp = [
       {
         id: "Glass",
         color: "hsl(220, 60%, 50%)",
@@ -88,6 +133,14 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
         color: "hsl(120, 35%, 50%)",
       },
     ];
+
+    const filtered = temp.filter((o) => params.find((obj) => obj == o.id));
+    console.log("filtered");
+    console.log(filtered);
+    console.log("params");
+    console.log(params);
+    return filtered.length > 0 ? filtered : temp;
+    // return ;
   };
 
   const getTarget = (temp) => {
@@ -295,11 +348,14 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
       }
       setData(temp);
       filterScatterData(temp);
+
+      adjustParams(temp)
     }
   };
   useEffect(() => {
     if (data.length > 0) {
       // console.log('data is ready')
+      // adjustParams([])
       prepareData();
     }
   }, [data]);
@@ -310,6 +366,7 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
           onClick={() => {
             setData(sankeyData);
             filterScatterData([]);
+            setParams([])
             enable(false);
           }}
           circular
@@ -327,26 +384,12 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
         <ResponsiveSankey
           data={sankyInput}
           // margin={{ top: 40, right: 160, bottom: 40, left: 50 }}
-          onClick={(data, event) => handleClick(data)}
-          // onmouseover={(data, event)=>{
-          //   console.log('onenter')
-          //   console.log({data, event})
+          onClick={(data, e) => handleClick(data)}
+          // onMouseEnter={(data, e) => {
+          //   console.log({is: 'mouseEnter', data, event: e})
           // }}
-          // onMouseLeave={(data, event)=>{
-          //   console.log('onleave')
-          //   console.log({data, event})
-          // }}
-          // onMouseHover={(data, event)=>{
-          //   console.log('onHOver')
-          //   console.log({data, event})
-          // }}
-          // onOver={(data, event)=>{
-          //   console.log('onover')
-          //   console.log({data, event})
-          // }}
-          // onOut={(data, event)=>{
-          //   console.log('onout')
-          //   console.log({data, event})
+          // onMouseLeave={(data, e) => {
+          //   console.log({is: 'mouseLeave', data, event:e})
           // }}
           margin={{ top: 30, right: 45, bottom: 35, left: 50 }}
           align="justify"

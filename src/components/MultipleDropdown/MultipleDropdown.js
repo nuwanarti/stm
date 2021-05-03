@@ -77,17 +77,17 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
   };
 
   const handleAucAcc = (id, auc, acc) => {
-    setCategories(
-      categories.map((c) => {
-        if (id == c.id) {
-          console.log("came here to change the name");
-          c.matName = c.matName + " ACC: " + acc + " AUC: " + auc;
-        }
-        return c;
-      })
-    );
+    // setCategories(
+    //   categories.map((c) => {
+    //     if (id == c.id) {
+    //       console.log("came here to change the name");
+    //       c.matName = c.matName + " ACC: " + acc + " AUC: " + auc;
+    //     }
+    //     return c;
+    //   })
+    // );
     setValue([...v, id]);
-    const item = categories.find(c => c.id == id)
+    const item = categories.find((c) => c.id == id);
     setSelected([...selected, { ...item, id, auc, acc }]);
   };
 
@@ -95,9 +95,9 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
     categories
       .filter((o) => from <= o.thickness && o.thickness < to)
       .map((o) => {
-        o['acc'] = o.accuracy
-        o['auc'] = o.auc
-        return o
+        o["acc"] = o.accuracy;
+        o["auc"] = o.auc;
+        return o;
       });
 
   const renderName = (obj) => {
@@ -114,10 +114,10 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
   return (
     <Grid>
       <Grid.Row>
-        <Grid.Column width={13}>
+        <Grid.Column width={12}>
           {/* <Form> */}
           <Dropdown
-            style
+            // style
             width={10}
             placeholder="Please add material a minimum of 3 materials"
             fluid
@@ -159,23 +159,25 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
             compact
             onClick={() => predictNewReg(selected)}
             width={3}
-            disabled={selected.length>2?false : true}
+            disabled={selected.length > 2 ? false : true}
+            style={{ width: "100%" }}
           >
-            Build Custom Model
+            Build Model
           </Button>
         </Grid.Column>
-        <Grid.Column width={1}>
-        <Button
+        <Grid.Column width={2}>
+          <Button
             color="red"
             compact
             onClick={() => window.location.reload()}
             width={3}
+            style={{ width: "100%" }}
             // disabled={selected.length>2?false : true}
           >
             Reset
           </Button>
         </Grid.Column>
-        <Grid.Column width={3} style={{ display: 'none'}}>
+        {/* <Grid.Column width={3} style={{ display: 'none'}}>
           <Dropdown
             style={{ marginLeft: '20px'}}
             search
@@ -211,7 +213,7 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
             }}
             placeholder="Select Thickness"
           />
-        </Grid.Column>
+        </Grid.Column> */}
       </Grid.Row>
       {/* </Form.Group> */}
       <MyModal open={openModal} obj={chosen} handleAucAcc={handleAucAcc} />
