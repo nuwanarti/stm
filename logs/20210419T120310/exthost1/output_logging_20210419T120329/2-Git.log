@@ -54174,3 +54174,21 @@ Warning: Failed to watch ref '/Users/rt/Documents/famnit/stmDashboard/.git/refs/
 > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
 > git remote --verbose
 > git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /Users/rt/Documents/famnit/stmDashboard/src/components/SortableTable/SortableTable.js
+> git ls-files --stage -- /Users/rt/Documents/famnit/stmDashboard/src/pages/DashboardPage/Dashboard.js
+> git cat-file -s ea75658ba59d7ef4d857d8435b6ca7013fa0b013
+> git cat-file -s dc22ad5313a42098c7ac7e74a825649580698156
+> git show --textconv :src/components/SortableTable/SortableTable.js
+> git show --textconv :src/pages/DashboardPage/Dashboard.js
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(upstream:track)%00%(objectname) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template

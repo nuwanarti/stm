@@ -4,7 +4,7 @@ import React, { useEffect, useReducer, useState, useRef } from "react";
 import { scroller } from "react-scroll";
 import { Table } from "semantic-ui-react";
 
-import ImgsViewer from "react-images-viewer";
+// import ImgsViewer from "react-images-viewer";
 // import im from './1_200.jpeg'
 import images from "../../components/Images/Images";
 
