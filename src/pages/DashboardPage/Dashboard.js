@@ -454,8 +454,8 @@ class Dashboard extends Component {
   componentDidMount() {
     // console.log('logging images')
     // console.log(images)
-    fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/")
-    // fetch("http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/")
+    // fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/")
+    fetch("http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/")
       .then((response) => response.json())
       .then((data) => {
         data = data.data;
@@ -466,8 +466,8 @@ class Dashboard extends Component {
           return o;
         });
         fetch(
-          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/",
-          // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/"
+          // "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/",
+          "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/"
         )
           .then((response) => response.json())
           .then((d) => {
@@ -589,8 +589,8 @@ class Dashboard extends Component {
     };
 
     fetch(
-      "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/predict/",
-      // "http://localhost:5000/solidsonsoli/us-central1/cors/cat/predict/",
+      // "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/predict/",
+      "http://localhost:5000/solidsonsoli/us-central1/cors/cat/predict/",
       requestOptions
     )
       .then((response) => response.json())

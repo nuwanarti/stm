@@ -22,7 +22,7 @@ class TopMenu extends Component {
     const { activeItem } = this.state;
 
     let iconStyle = {
-      color: "#3cbfc8",
+      color: "#299BD7",
       margin: "0 10px 0 0",
     };
 
@@ -31,80 +31,98 @@ class TopMenu extends Component {
         // pointing
         // secondary
         className="top-menu"
-        style={{ color: "#3cbfc8" }}
+        style={{ color: "#299BD7" }}
       >
         {/* <Menu.Menu> */}
-          <Menu.Item header>
-            {/* <Link to="dashboard">
+        <Menu.Item header>
+          {/* <Link to="dashboard">
               CATALOGUE OF MATERIALS FOR \nMILLIMETRE WEAVELENGTH RADAR SENSING
             </Link> */}
-            {/* <Header as="h2" icon> */}
-            {/* <Icon name="settings" /> */}
-            {/* <div > */}
-            <Link
-              to="dashboard"
-              style={{
-                textAlign: "left",
-                width: "300px",
-                fontSize: "1em",
-                color: "#3cbfc8",
-              }}
-            >
-              Catalogue of Materials for Millimetre Wavelength Radar Sensing
-            </Link>
-            {/* </div> */}
-            {/* <Header.Subheader>
+          {/* <Header as="h2" icon> */}
+          {/* <Icon name="settings" /> */}
+          {/* <div > */}
+          <Link
+            to="dashboard"
+            style={{
+              textAlign: "left",
+              width: "300px",
+              fontSize: "1em",
+              color: "#299BD7",
+            }}
+          >
+            Catalogue of Materials for Millimetre Wavelength Radar Sensing
+          </Link>
+          {/* </div> */}
+          {/* <Header.Subheader>
                 Manage your account settings and set e-mail preferences.
               </Header.Subheader> */}
-            {/* </Header> */}
-          </Menu.Item>
+          {/* </Header> */}
+        </Menu.Item>
         {/* </Menu.Menu> */}
         {/* <Menu.Menu className="center menu"> */}
-          <Menu.Item
-            name="home"
-            active={activeItem === "home"}
-            onClick={this.handleItemClick}
-          >
-            <Link to="home">
-              <Icon name="book" size="large" style={iconStyle} />
-              <span
-                style={{
-                  color: "#3cbfc8",
-                  fontSize: "1em",
-                  verticalAlign: "-0.2em",
-                }}
-              >
-                Catalogue
-              </span>
-            </Link>
-          </Menu.Item>
+        <Menu.Item
+          name="home"
+          active={activeItem === "home"}
+          onClick={this.handleItemClick}
+        >
+          <Link to="home">
+            <Icon name="book" size="large" style={iconStyle} />
+            <span
+              style={{
+                color: "#299BD7",
+                fontSize: "1em",
+                verticalAlign: "-0.2em",
+              }}
+            >
+              Home
+            </span>
+          </Link>
+        </Menu.Item>
+        <Menu.Item
+          name="catalogue"
+          active={activeItem === "catalogue"}
+          onClick={this.handleItemClick}
+        >
+          <Link to="catalogue">
+            <Icon name="book" size="large" style={iconStyle} />
+            <span
+              style={{
+                color: "#299BD7",
+                fontSize: "1em",
+                verticalAlign: "-0.2em",
+              }}
+            >
+              Catalogue
+            </span>
+          </Link>
+        </Menu.Item>
 
-          <Menu.Item
-            name="browser"
-            active={activeItem === "browser"}
-            onClick={this.handleItemClick}
-          >
-            <Link to="howTo">
-              <Icon name="hire a helper" size="large" style={iconStyle} />
-              <span
-                style={{
-                  color: "#3cbfc8",
-                  fontSize: "1em",
-                  verticalAlign: "-0.2em",
-                }}
-              >
-                How To?
-              </span>
-            </Link>
-          </Menu.Item>
-          {/* <Menu.Item
+        <Menu.Item
+          name="browser"
+          active={activeItem === "browser"}
+          onClick={this.handleItemClick}
+        >
+          <Link to="howTo">
+            <Icon name="hire a helper" size="large" style={iconStyle} />
+            <span
+              style={{
+                color: "#299BD7",
+                fontSize: "1em",
+                verticalAlign: "-0.2em",
+              }}
+            >
+              How To?
+            </span>
+          </Link>
+        </Menu.Item>
+        {/* <Menu.Item
             name="portfolio"
             active={activeItem === 'portfolio'}
             onClick={this.handleItemClick}
           > */}
-          {/* <Icon name="cubes" size="large" style={iconStyle} />
+        {/* <Icon name="cubes" size="large" style={iconStyle} />
             <span>Portfolio</span> */}
-          {/* <Dropdown>
+        {/* <Dropdown>
               <Dropdown.Menu>
                 <Dropdown.Header>Categories</Dropdown.Header>
                 <Dropdown.Item>Home Goods</Dropdown.Item>
@@ -115,18 +133,18 @@ class TopMenu extends Component {
                 <Dropdown.Item>Cancellations</Dropdown.Item>
               </Dropdown.Menu>
             </Dropdown> */}
-          {/* </Menu.Item> */}
+        {/* </Menu.Item> */}
         {/* </Menu.Menu> */}
-{/*  */}
+        {/*  */}
         {/* <Menu.Menu position="right"> */}
-          {/* <Menu.Item><TopSearch /></Menu.Item> */}
-          {/* <Menu.Item name="notification" onClick={this.handleItemClick}>
+        {/* <Menu.Item><TopSearch /></Menu.Item> */}
+        {/* <Menu.Item name="notification" onClick={this.handleItemClick}>
             <Notification icon="alarm outline" numOfNew={3} />
           </Menu.Item> */}
-          {/* <Menu.Item name="message" onClick={this.handleItemClick}>
+        {/* <Menu.Item name="message" onClick={this.handleItemClick}>
             <Icon name="comments outline" size="large" style={iconStyle} />
           </Menu.Item> */}
-          {/* <Menu.Item name="setting" onClick={this.handleItemClick}>
+        {/* <Menu.Item name="setting" onClick={this.handleItemClick}>
             <MyMenu />
           </Menu.Item> */}
         {/* </Menu.Menu> */}

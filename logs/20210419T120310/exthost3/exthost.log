@@ -1,0 +1,30 @@
+[2021-05-17 02:29:25.819] [exthost] [info] extension host started
+[2021-05-17 02:29:25.850] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication {"startup":false,"extensionId":{"value":"vscode.microsoft-authentication","_lower":"vscode.microsoft-authentication"},"activationEvent":"onAuthenticationRequest:microsoft"}
+[2021-05-17 02:29:25.850] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-05-17 02:29:25.861] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-05-17 02:29:25.861] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/debug-auto-launch/dist/extension
+[2021-05-17 02:29:25.864] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-17 02:29:25.864] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/main
+[2021-05-17 02:29:25.878] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer {"startup":true,"extensionId":{"value":"CoenraadS.bracket-pair-colorizer","_lower":"coenraads.bracket-pair-colorizer"},"activationEvent":"*"}
+[2021-05-17 02:29:25.878] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/rt/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-05-17 02:29:25.900] [exthost] [info] ExtensionService#_doActivateExtension kevinkyang.auto-comment-blocks {"startup":true,"extensionId":{"value":"kevinkyang.auto-comment-blocks","_lower":"kevinkyang.auto-comment-blocks"},"activationEvent":"*"}
+[2021-05-17 02:29:25.900] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/rt/.vscode/extensions/kevinkyang.auto-comment-blocks-1.0.1/out/src/extension
+[2021-05-17 02:29:25.953] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-05-17 02:29:25.953] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-05-17 02:29:26.073] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-05-17 02:29:26.073] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github/dist/extension.js
+[2021-05-17 02:29:26.083] [exthost] [info] eager extensions activated
+[2021-05-17 02:29:26.084] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":false,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"onAuthenticationRequest:github"}
+[2021-05-17 02:29:26.084] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/github-authentication/dist/extension.js
+[2021-05-17 02:29:26.091] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-05-17 02:29:26.091] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-05-17 02:29:26.097] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-05-17 02:29:26.097] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-05-17 02:29:26.101] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-05-17 02:29:26.101] [exthost] [info] ExtensionService#loadCommonJSModule file:///Applications/Visual Studio Code.app/Contents/Resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-05-17 02:29:26.104] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint {"startup":false,"extensionId":{"value":"dbaeumer.vscode-eslint","_lower":"dbaeumer.vscode-eslint"},"activationEvent":"onStartupFinished"}
+[2021-05-17 02:29:26.104] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/rt/.vscode/extensions/dbaeumer.vscode-eslint-2.1.20/client/out/extension
+[2021-05-17 02:29:26.113] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode {"startup":false,"extensionId":{"value":"esbenp.prettier-vscode","_lower":"esbenp.prettier-vscode"},"activationEvent":"onStartupFinished"}
+[2021-05-17 02:29:26.113] [exthost] [info] ExtensionService#loadCommonJSModule file:///Users/rt/.vscode/extensions/esbenp.prettier-vscode-6.4.0/dist/extension
+[2021-05-17 02:29:26.218] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-05-17 02:29:27.226] [exthost] [info] exiting with code 0

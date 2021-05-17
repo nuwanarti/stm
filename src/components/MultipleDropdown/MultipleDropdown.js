@@ -119,7 +119,7 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
           <Dropdown
             // style
             width={10}
-            placeholder="Please add material a minimum of 3 materials"
+            placeholder="Please add a minimum of 3 materials."
             fluid
             multiple
             search
@@ -155,23 +155,23 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
         </Grid.Column>
         <Grid.Column width={2}>
           <Button
-            color="teal"
+            // color="teal"
             compact
             onClick={() => predictNewReg(selected)}
             width={3}
             disabled={selected.length > 2 ? false : true}
-            style={{ width: "100%" }}
+            style={{ width: "100%", backgroundColor: '#299BD7' }}
           >
             Build Model
           </Button>
         </Grid.Column>
         <Grid.Column width={2}>
           <Button
-            color="red"
+            // color="red"
             compact
             onClick={() => window.location.reload()}
             width={3}
-            style={{ width: "100%" }}
+            style={{ width: "100%", backgroundColor: '#C9111F' }}
             // disabled={selected.length>2?false : true}
           >
             Reset
