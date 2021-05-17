@@ -85,6 +85,8 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
   const getImage = (id) => {
     let str = id + "..*";
     let re = new RegExp(str, "g");
+    // console.log('str')
+    // console.log(images)
     let img = images.find((im) => im.match(re));
     // console.log('found image')
     // console.log(img)
