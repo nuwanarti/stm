@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Document, Page } from "react-pdf";
 
+import { Button } from "semantic-ui-react";
 export default function SinglePage(props) {
   const [numPages, setNumPages] = useState(null);
   const [pageNumber, setPageNumber] = useState(1); //setting 1 to show fisrt page
@@ -11,7 +12,7 @@ export default function SinglePage(props) {
   }
 
   function changePage(offset) {
-    setPageNumber(prevPageNumber => prevPageNumber + offset);
+    setPageNumber((prevPageNumber) => prevPageNumber + offset);
   }
 
   function previousPage() {
@@ -37,16 +38,22 @@ export default function SinglePage(props) {
         <p>
           Page {pageNumber || (numPages ? 1 : "--")} of {numPages || "--"}
         </p>
-        <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
+        <Button
+          style={{ backgroundColor: "#4183c4" }}
+          type="button"
+          disabled={pageNumber <= 1}
+          onClick={previousPage}
+        >
           Previous
-        </button>
-        <button
+        </Button>
+        <Button
+          style={{ backgroundColor: "#4183c4" }}
           type="button"
           disabled={pageNumber >= numPages}
           onClick={nextPage}
         >
           Next
-        </button>
+        </Button>
       </div>
     </div>
   );

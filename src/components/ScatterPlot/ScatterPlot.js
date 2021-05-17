@@ -367,6 +367,7 @@ const MyResponsiveScatterPlot = ({ dataOriginal, scrollToRow, dataDup }) => {
         tooltip={({ node }) => (
           <div
             style={{
+              textAlign: "left",
               color: getColor(node.data.category),
               background: "#CDF1FF",
               padding: "5px",
@@ -376,13 +377,13 @@ const MyResponsiveScatterPlot = ({ dataOriginal, scrollToRow, dataDup }) => {
           >
             <strong>{node.data.matName}</strong>
             <br />
-            <strong>Thickness: {node.data.thickness}</strong>
+            <strong>Thickness: {node.data.thickness} mm</strong>
             <br />
             <strong>Category: {node.data.category}</strong>
             <br />
-            {`T.C: ${node.data.x}`}
+            {`Tc: ${node.data.x}`}
             <br />
-            {`Performance: ${node.data.y}`}
+            {`Performance: ${node.data.y} %`}
           </div>
         )}
         onClick={(node, event) => {

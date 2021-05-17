@@ -14,7 +14,7 @@ import MultipleSearchSelection from "../../components/MultipleDropdown/MultipleD
 
 import SortableTable from "../../components/SortableTable/SortableTable";
 
-import TablePopup from "../../components/Popup/TablePopup"
+import TablePopup from "../../components/Popup/TablePopup";
 
 // import MyModal from "../../components/Modal/Modal";
 
@@ -408,17 +408,18 @@ class Dashboard extends Component {
       datDup: [],
       tablePopupData: {
         open: false,
-        data: {id: ''}
+        data: { id: "" },
       },
-      selected: []
+      selected: [],
+      customModel: false
     };
     this.myRef = [];
-
+    this.handleRadioClick = this.handleRadioClick.bind(this);
   }
 
   predictData = (postData, test) => {
-    console.log('printing y')
-    console.log(test)
+    console.log("printing y");
+    console.log(test);
     let m = (test[1].y - test[0].y) / (test[1].x - test[0].x);
     let c = test[0].y; // y intercept
 
@@ -434,28 +435,48 @@ class Dashboard extends Component {
         o["auc"] = y;
         o["acc"] = y;
         o["x"] = o.transmissionCoe;
-        o["y"] = y
+        o["y"] = y;
         return o;
       });
 
     // return [...objs, ...postData];
-    console.log('printing objs')
-    console.log(objs)
-    return [...objs, ...postData]
+    console.log("printing objs");
+    console.log(objs);
+    return [...objs, ...postData];
   };
 
   filterScatterData = (ddd) => {
     this.setState({
       dataDup: ddd,
-      tableData: (ddd.length > 0 ? ddd : this.state.initialRegressedData )
-    })
-  }
+      tableData: ddd.length > 0 ? ddd : this.state.initialRegressedData,
+    });
+  };
 
-  componentDidMount() {
-    // console.log('logging images')
-    // console.log(images)
-    // fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/")
-    fetch("http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/")
+  handleRadioClick(model) {
+    console.log("came here");
+    console.log(model);
+
+    let query = "";
+    if (model == "lstm") query = "lstm";
+    else if (model == "conv3d") query = "conv3d";
+    else{
+      this.setState({
+        customModel: true
+      })
+      return
+    }
+    this.setState({
+      customModel: false
+    })
+
+    this.setState({
+      ready: false,
+    });
+    fetch(
+      "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=" + query,
+      // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/?model=" +
+      //   query
+    )
       .then((response) => response.json())
       .then((data) => {
         data = data.data;
@@ -466,8 +487,90 @@ class Dashboard extends Component {
           return o;
         });
         fetch(
-          // "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/",
-          "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/"
+          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/?model=" + query,
+          // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/?model=" +
+            query
+        )
+          .then((response) => response.json())
+          .then((d) => {
+            const testX = d.testValues;
+            const testY = d.predict;
+            const trainX = d.xTrain;
+            const trainY = d.yTrain;
+            const test = [];
+            Object.keys(testX).forEach((key) => {
+              let obj = {
+                x: testX[key],
+                y: testY[key],
+              };
+              test.push(obj);
+            });
+            const train = [];
+            Object.keys(trainX).forEach((key) => {
+              let obj = {
+                x: trainX[key],
+                y: trainY[key],
+              };
+              train.push(obj);
+            });
+
+            this.setState({
+              data: [
+                {
+                  id: "Pre built",
+                  color: "#4FFF33",
+                  data: data,
+                },
+                // {
+                //   id: "linRegTrain",
+                //   color: "#DE6260",
+                //   data: train,
+                // },
+                {
+                  id: "linRegTest",
+                  color: "#F4FD35",
+                  data: test,
+                },
+              ],
+              initialRegressedData: data,
+            });
+            this.setState({
+              tableData: data,
+              sankyData: data,
+            });
+            console.log("came here");
+            console.log(data);
+            // data["test"] = test;
+            // data["train"] = train;
+            // this.setState({data: data.data})
+            this.setState({
+              ready: true,
+            });
+          });
+        // console.log(data)
+        // this.setState({data: data.data})
+      });
+  }
+
+  componentDidMount() {
+    // console.log('logging images')
+    // console.log(images)
+    fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=lstm")
+    // fetch(
+    //   "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/?model=lstm"
+    // )
+      .then((response) => response.json())
+      .then((data) => {
+        data = data.data;
+        data = data.map((o) => {
+          o["x"] = o.transmissionCoe;
+          o["y"] = (o.auc + o.accuracy) / 2;
+          o["matId"] = o.id;
+          return o;
+        });
+        fetch(
+          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/?model=lstm",
+          // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/?model=lstm"
         )
           .then((response) => response.json())
           .then((d) => {
@@ -532,8 +635,8 @@ class Dashboard extends Component {
 
   // eslint-disable-next-line no-undef
   predictNewReg = (selected) => {
-    console.log('selected')
-    console.log(selected)
+    console.log("selected");
+    console.log(selected);
     this.setState({
       ready: false,
     });
@@ -589,8 +692,8 @@ class Dashboard extends Component {
     };
 
     fetch(
-      // "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/predict/",
-      "http://localhost:5000/solidsonsoli/us-central1/cors/cat/predict/",
+      "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/predict/",
+      // "http://localhost:5000/solidsonsoli/us-central1/cors/cat/predict/",
       requestOptions
     )
       .then((response) => response.json())
@@ -644,8 +747,8 @@ class Dashboard extends Component {
             {
               id: "linRegTrain",
               color: "hsl(300, 70%, 50%)",
-              data: selected
-            }
+              data: selected,
+            },
           ],
           // tableData: this.state.initialRegressedData.filter((t) =>
           //   postData.find((o) => o.id == t.id)
@@ -664,7 +767,7 @@ class Dashboard extends Component {
       duration: 800,
       delay: 0,
       smooth: "easeInOutQuart",
-      offset: -55
+      offset: -55,
     });
 
     this.setState({
@@ -681,9 +784,9 @@ class Dashboard extends Component {
 
   handleTablePopup = (data) => {
     this.setState({
-      tablePopupData: data
-    })
-  }
+      tablePopupData: data,
+    });
+  };
   render() {
     return (
       <Grid columns="equal">
@@ -720,19 +823,21 @@ class Dashboard extends Component {
             </Segment>
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row style={{ paddingLeft: '50px', paddingRight: '50px'}}>
+        <Grid.Row style={{ paddingLeft: "50px", paddingRight: "50px" }}>
           <Grid.Column width={16}>
             <Segment>
               <MultipleSearchSelection
                 // data={this.state.data}
                 data={this.state.initialRegressedData}
                 predictNewReg={this.predictNewReg}
+                handleRadioClick={this.handleRadioClick}
+                customModel={this.state.customModel}
                 // handleOpenModal={this.handleOpenModal}
               />
             </Segment>
           </Grid.Column>
         </Grid.Row>
-        <Grid.Row style={{ paddingLeft: '50px', paddingRight: '50px'}}>
+        <Grid.Row style={{ paddingLeft: "50px", paddingRight: "50px" }}>
           <Grid.Column width={16}>
             <Segment>
               <SortableTable

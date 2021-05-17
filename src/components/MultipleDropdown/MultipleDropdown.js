@@ -2,9 +2,11 @@ import faker from "faker";
 import _ from "lodash";
 import React, { useEffect, useState } from "react";
 // import { Grid } from "semantic-ui-react";
+
 import { Dropdown, Button, Form, Grid } from "semantic-ui-react";
 
 import MyModal from "../Modal/Modal";
+import ModelSelection from '../ModelSelection/ModelSelection'
 
 const options = [
   { key: 1, text: "All Materials", value: 1 },
@@ -21,7 +23,7 @@ const stateOptions = _.map(addressDefinitions.state, (state, index) => ({
   value: addressDefinitions.state_abbr[index],
 }));
 
-const MultipleSearchSelection = ({ data, predictNewReg }) => {
+const MultipleSearchSelection = ({ data, predictNewReg, handleRadioClick, customModel }) => {
   // format of one object
   //   {
   //     "matName": "100Xpaper (Radecepapir Copy Paper 80G/M2)",
@@ -114,6 +116,12 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
   return (
     <Grid>
       <Grid.Row>
+        <Grid.Column width={12}>
+        <ModelSelection handleRadioClick={handleRadioClick} />
+        </Grid.Column>
+      </Grid.Row>
+      {
+        customModel && <Grid.Row>
         <Grid.Column width={12}>
           {/* <Form> */}
           <Dropdown
@@ -215,6 +223,7 @@ const MultipleSearchSelection = ({ data, predictNewReg }) => {
           />
         </Grid.Column> */}
       </Grid.Row>
+      }
       {/* </Form.Group> */}
       <MyModal open={openModal} obj={chosen} handleAucAcc={handleAucAcc} />
     </Grid>

@@ -147,13 +147,13 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                 dispatch({ type: "CHANGE_SORT", column: "accuracy" })
               }
             >
-              Accuracy
+              Accuracy [%]
             </Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === "auc" ? state.direction : null}
               onClick={() => dispatch({ type: "CHANGE_SORT", column: "auc" })}
             >
-              AUC
+              AUC [%]
             </Table.HeaderCell>
 
             <Table.HeaderCell
@@ -161,8 +161,8 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
               onClick={() => dispatch({ type: "CHANGE_SORT", column: "y" })}
             >
               {selectedFromDropdown.length > 0
-                ? "Predicted Performance"
-                : "Performance"}
+                ? "Predicted Performance [%]"
+                : "Performance [%]"}
             </Table.HeaderCell>
             <Table.HeaderCell
               sorted={
@@ -172,7 +172,7 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                 dispatch({ type: "CHANGE_SORT", column: "transmissionCoe" })
               }
             >
-              T/C
+              Tc
             </Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === "thickness" ? state.direction : null}
@@ -180,7 +180,7 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                 dispatch({ type: "CHANGE_SORT", column: "thickness" })
               }
             >
-              Thickness
+              Thickness [mm]
             </Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === "signalEnergy" ? state.direction : null}
@@ -196,7 +196,7 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                 dispatch({ type: "CHANGE_SORT", column: "insertionLoss" })
               }
             >
-              Insertion Loss
+              Insertion Loss [dB]
             </Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === "signalToNoice" ? state.direction : null}
@@ -204,7 +204,7 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                 dispatch({ type: "CHANGE_SORT", column: "signalToNoice" })
               }
             >
-              Signal To Noice
+              SNR [dB]
             </Table.HeaderCell>
             <Table.HeaderCell
               sorted={state.column === "peakToPeakAmp" ? state.direction : null}
@@ -212,12 +212,12 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                 dispatch({ type: "CHANGE_SORT", column: "peakToPeakAmp" })
               }
             >
-              Peak To Peak Amp
+              Peak To Peak Amp 
             </Table.HeaderCell>
-            <Table.HeaderCell>Image</Table.HeaderCell>
-            <Table.HeaderCell>Mag 20</Table.HeaderCell>
-            <Table.HeaderCell>Mag 200</Table.HeaderCell>
-            <Table.HeaderCell>Mag 200 Roughness</Table.HeaderCell>
+            <Table.HeaderCell>Mag. x1</Table.HeaderCell>
+            <Table.HeaderCell>Mag. x20</Table.HeaderCell>
+            <Table.HeaderCell>Mag. x200</Table.HeaderCell>
+            <Table.HeaderCell>Roughness</Table.HeaderCell>
           </Table.Row>
         </Table.Header>
         <Table.Body>
