@@ -488,8 +488,7 @@ class Dashboard extends Component {
         });
         fetch(
           "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/?model=" + query,
-          // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/?model=" +
-            query
+          // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/?model=" + query
         )
           .then((response) => response.json())
           .then((d) => {
