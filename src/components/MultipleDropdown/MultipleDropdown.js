@@ -121,7 +121,7 @@ const MultipleSearchSelection = ({ data, predictNewReg, handleRadioClick, custom
         </Grid.Column>
       </Grid.Row>
       {
-        customModel && <Grid.Row>
+        customModel && <Grid.Row style={{ marginTop: '-20px'}}>
         <Grid.Column width={12}>
           {/* <Form> */}
           <Dropdown

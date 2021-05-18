@@ -457,9 +457,19 @@ class Dashboard extends Component {
     console.log(model);
 
     let query = "";
-    if (model == "lstm") query = "lstm";
-    else if (model == "conv3d") query = "conv3d";
-    else{
+    if (model == "lstm") {
+      query = "lstm";
+      this.setState({
+        selected: []
+      })
+    }
+    else if (model == "conv3d") {
+      query = "conv3d";
+      this.setState({
+        selected: []
+      })
+    }
+    else {
       this.setState({
         customModel: true
       })
@@ -555,9 +565,9 @@ class Dashboard extends Component {
     // console.log('logging images')
     // console.log(images)
     fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=lstm")
-    // fetch(
-    //   "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/?model=lstm"
-    // )
+      // fetch(
+      //   "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/?model=lstm"
+      // )
       .then((response) => response.json())
       .then((data) => {
         data = data.data;
@@ -831,7 +841,7 @@ class Dashboard extends Component {
                 predictNewReg={this.predictNewReg}
                 handleRadioClick={this.handleRadioClick}
                 customModel={this.state.customModel}
-                // handleOpenModal={this.handleOpenModal}
+              // handleOpenModal={this.handleOpenModal}
               />
             </Segment>
           </Grid.Column>

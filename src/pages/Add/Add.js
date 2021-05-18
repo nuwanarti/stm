@@ -5,9 +5,9 @@ import { Header, Icon, Image } from 'semantic-ui-react'
 // import samplePDF from "./solids_on_soli.pdf";
 
 // import PdfViewer from '../../components/PdfViewer/PdfViewer'
-import './home.css'
+// import './home.css'
 
-const Home = (props) => {
+const Add = (props) => {
 
     return (<div>
         <Header as='h2' icon textAlign='center'>
@@ -20,4 +20,4 @@ const Home = (props) => {
     // return (<PdfViewer pdf={samplePDF} />)
 }
 
-export default Home;
+export default Add;

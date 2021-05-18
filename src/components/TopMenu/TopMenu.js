@@ -111,7 +111,25 @@ class TopMenu extends Component {
                 verticalAlign: "-0.2em",
               }}
             >
-              How To?
+              How to use
+            </span>
+          </Link>
+        </Menu.Item>
+        <Menu.Item
+          name="add"
+          active={activeItem === "add"}
+          onClick={this.handleItemClick}
+        >
+          <Link to="add">
+            <Icon name="add" size="large" style={iconStyle} />
+            <span
+              style={{
+                color: "#299BD7",
+                fontSize: "1em",
+                verticalAlign: "-0.2em",
+              }}
+            >
+              Expanding the catalogue
             </span>
           </Link>
         </Menu.Item>

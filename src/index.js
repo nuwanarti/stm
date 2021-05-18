@@ -8,6 +8,7 @@ import registerServiceWorker from './registerServiceWorker';
 import 'semantic-ui-css/semantic.min.css';
 
 const AsyncHome = asyncComponent(() => import('./pages/HomePage/Home'))
+const AsyncAdd = asyncComponent(() => import('./pages/Add/Add'))
 const AsyncDashboard = asyncComponent(() => import('./pages/DashboardPage/Dashboard'));
 const AsyncDropdowns = asyncComponent(() => import('./pages/DropdownPage/Dropdowns'));
 const AsyncRangePicker = asyncComponent(() => import('./pages/FormPage/RangePicker'));
@@ -22,6 +23,7 @@ ReactDOM.render(
       <IndexRoute exact component={AsyncHome} />
       <Route path="home" exact component={AsyncHome} />
       <Route path="catalogue" exact component={AsyncDashboard} />
+      <Route path="add" exact component={AsyncAdd} />
       <Route path="input" exact component={AsyncInput} />
       <Route path="calendar" exact component={AsyncCalendar} />
       <Route path="howTo" exact component={AsyncDropdowns} />
