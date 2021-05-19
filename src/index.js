@@ -20,7 +20,7 @@ const AsyncLayout = asyncComponent(() => import('./pages/LayoutPage/Layout'));
 ReactDOM.render(
   <Router history={browserHistory}>
     <Route path="/" component={App}>
-      <IndexRoute exact component={AsyncHome} />
+      <IndexRoute exact component={AsyncDashboard} />
       <Route path="home" exact component={AsyncHome} />
       <Route path="catalogue" exact component={AsyncDashboard} />
       <Route path="add" exact component={AsyncAdd} />

@@ -247,15 +247,15 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                 >
                   <Table.Cell>{matName}</Table.Cell>
                   <Table.Cell>{category}</Table.Cell>
-                  <Table.Cell>{acc}</Table.Cell>
-                  <Table.Cell>{auc}</Table.Cell>
+                  <Table.Cell>{acc && acc.toFixed(2)}</Table.Cell>
+                  <Table.Cell>{acc && auc.toFixed(2)}</Table.Cell>
                   <Table.Cell>{"-"}</Table.Cell>
-                  <Table.Cell>{transmissionCoe}</Table.Cell>
-                  <Table.Cell>{thickness}</Table.Cell>
-                  <Table.Cell>{signalEnergy}</Table.Cell>
-                  <Table.Cell>{insertionLoss}</Table.Cell>
-                  <Table.Cell>{signalToNoice}</Table.Cell>
-                  <Table.Cell>{peakToPeakAmp}</Table.Cell>
+                  <Table.Cell>{transmissionCoe && transmissionCoe.toFixed(2)}</Table.Cell>
+                  <Table.Cell>{thickness && thickness.toFixed(2)}</Table.Cell>
+                  <Table.Cell>{signalEnergy && signalEnergy.toFixed(2)}</Table.Cell>
+                  <Table.Cell>{insertionLoss && insertionLoss.toFixed(2)}</Table.Cell>
+                  <Table.Cell>{signalToNoice && signalToNoice.toFixed(2)}</Table.Cell>
+                  <Table.Cell>{peakToPeakAmp && peakToPeakAmp.toFixed(2)}</Table.Cell>
 
                   <Table.Cell>
                     <ImageModal image={getImage('^/static/media/' + id + "_c")} />
@@ -307,19 +307,19 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
                     <Table.Cell>{matName}</Table.Cell>
                     <Table.Cell>{category}</Table.Cell>
                     <Table.Cell>
-                      {selectedFromDropdown.length > 0 ? "-" : accuracy}
+                      {selectedFromDropdown.length > 0 ? "-" : accuracy.toFixed(2)}
                     </Table.Cell>
                     <Table.Cell>
-                      {selectedFromDropdown.length > 0 ? "-" : auc}
+                      {selectedFromDropdown.length > 0 ? "-" : auc.toFixed(2)}
                     </Table.Cell>
                     {/* { selectedFromDropdown.length > 0 && <Table.Cell>{y}</Table.Cell>} */}
-                    <Table.Cell>{y}</Table.Cell>
-                    <Table.Cell>{transmissionCoe}</Table.Cell>
-                    <Table.Cell>{thickness}</Table.Cell>
-                    <Table.Cell>{signalEnergy}</Table.Cell>
-                    <Table.Cell>{insertionLoss}</Table.Cell>
-                    <Table.Cell>{signalToNoice}</Table.Cell>
-                    <Table.Cell>{peakToPeakAmp}</Table.Cell>
+                    <Table.Cell>{y&&y.toFixed(2)}</Table.Cell>
+                    <Table.Cell>{transmissionCoe && transmissionCoe.toFixed(2)}</Table.Cell>
+                    <Table.Cell>{thickness && thickness.toFixed(2)}</Table.Cell>
+                    <Table.Cell>{signalEnergy && signalEnergy.toFixed(2)}</Table.Cell>
+                    <Table.Cell>{insertionLoss && insertionLoss.toFixed(2)}</Table.Cell>
+                    <Table.Cell>{signalToNoice && signalToNoice.toFixed(2)}</Table.Cell>
+                    <Table.Cell>{peakToPeakAmp && peakToPeakAmp.toFixed(2)}</Table.Cell>
 
                     <Table.Cell>
                       <ImageModal image={getImage('^/static/media/' + id + "_c")} />
