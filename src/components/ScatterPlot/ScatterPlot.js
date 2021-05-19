@@ -383,7 +383,7 @@ const MyResponsiveScatterPlot = ({ dataOriginal, scrollToRow, dataDup }) => {
             <br />
             {`Tc: ${node.data.x}`}
             <br />
-            {`Performance: ${node.data.y} %`}
+            {`Performance: ${node.data.y.toFixed(2)} %`}
           </div>
         )}
         onClick={(node, event) => {
