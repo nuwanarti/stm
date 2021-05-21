@@ -7,7 +7,7 @@ import Notification from "../Notification/Notification";
 import "./TopMenu.css";
 
 class TopMenu extends Component {
-  state = { activeItem: "home" };
+  state = { activeItem: "catalogue" };
 
   // constructor(props){
   //   super(props)
@@ -42,7 +42,7 @@ class TopMenu extends Component {
           {/* <Icon name="settings" /> */}
           {/* <div > */}
           <Link
-            to="dashboard"
+            to="home"
             style={{
               textAlign: "left",
               width: "300px",
@@ -66,7 +66,7 @@ class TopMenu extends Component {
           onClick={this.handleItemClick}
         >
           <Link to="home">
-            <Icon name="book" size="large" style={iconStyle} />
+            <Icon name="home" size="large" style={iconStyle} />
             <span
               style={{
                 color: "#299BD7",

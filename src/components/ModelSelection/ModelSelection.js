@@ -22,7 +22,7 @@ const ModelSelection = ({handleRadioClick}) => {
       <label>Please select a model</label>
       <Form.Field>
         <Radio
-          label="LSTM"
+          label="CNN + LSTM"
           name="radioGroup"
           value="lstm"
           checked={value === "lstm"}
