@@ -3,7 +3,6 @@ import React, { Component } from "react";
 import { Segment, Grid, Loader, Dimmer, Header } from "semantic-ui-react";
 import { scroller } from "react-scroll";
 
-import { osVersion, osName, browserVersion, engineName, getUA, deviceType } from 'react-device-detect'
 
 // import publicIp from 'public-ip'
 
@@ -275,34 +274,6 @@ class Dashboard extends Component {
             this.setState({
               ready: true,
             });
-
-            fetch("https://geolocation-db.com/json/")
-              .then((res) => res.json())
-              .then((d) => {
-                var myHeaders = new Headers();
-                myHeaders.append("Content-Type", "application/json");
-                d['time'] = Date.now()
-                d['device'] = device
-                // console.log('device')
-                // console.log(deviceDetect)
-                var raw = JSON.stringify({ info: d });
-
-                var requestOptions = {
-                  method: "POST",
-                  headers: myHeaders,
-                  body: raw,
-                  redirect: "follow",
-                };
-
-                fetch(
-                  "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/info",
-                  requestOptions
-                )
-                  .then((response) => response.text())
-                  .then((result) => console.log(result))
-                  .catch((error) => console.log("error", error));
-              })
-              .catch((e) => console.log(e));
           });
         // console.log(data)
         // this.setState({data: data.data})
