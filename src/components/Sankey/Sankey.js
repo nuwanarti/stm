@@ -66,8 +66,8 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
 
     if (sankeyData.length > 0) {
       setData(sankeyData);
-      console.log("sankeydata");
-      console.log(sankeyData);
+      // console.log("sankeydata");
+      // console.log(sankeyData);
     }
 
     // setSankyInput({
@@ -135,10 +135,10 @@ const MyResponsiveSankey = ({ /*data, */ sankeyData, filterScatterData }) => {
     ];
 
     const filtered = temp.filter((o) => params.find((obj) => obj == o.id));
-    console.log("filtered");
-    console.log(filtered);
-    console.log("params");
-    console.log(params);
+    // console.log("filtered");
+    // console.log(filtered);
+    // console.log("params");
+    // console.log(params);
     return filtered.length > 0 ? filtered : temp;
     // return ;
   };

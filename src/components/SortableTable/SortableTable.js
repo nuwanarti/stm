@@ -60,14 +60,14 @@ const SortableTable = ({ tableData, highlight, selectedFromDropdown }) => {
     setCurrent(highlight);
   }, [highlight]);
 
-  useEffect(() => {
-    console.log("selected from dropdown");
-    console.log(selectedFromDropdown);
-    console.log(tableData);
-    // if(selectedFromDropdown.length > 0){
-    //   dispatch({ type: "INIT_COMP", payload: tableData.filter(o => !selectedFromDropdown.find(d => d.id == o.id)) });
-    // }
-  }, [selectedFromDropdown]);
+  // useEffect(() => {
+  //   // console.log("selected from dropdown");
+  //   // console.log(selectedFromDropdown);
+  //   // console.log(tableData);
+  //   // if(selectedFromDropdown.length > 0){
+  //   //   dispatch({ type: "INIT_COMP", payload: tableData.filter(o => !selectedFromDropdown.find(d => d.id == o.id)) });
+  //   // }
+  // }, [selectedFromDropdown]);
 
   // eslint-disable-next-line no-mixed-operators
   //   const myRef = useRef(null)

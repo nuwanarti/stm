@@ -3,6 +3,10 @@ import React, { Component } from "react";
 import { Segment, Grid, Loader, Dimmer, Header } from "semantic-ui-react";
 import { scroller } from "react-scroll";
 
+import { osVersion, osName, browserVersion, engineName, getUA, deviceType } from 'react-device-detect'
+
+// import publicIp from 'public-ip'
+
 import LineChartComponent from "../../components/Chart/LineChartComponent";
 import FullCalendar from "../../components/Calendar/FullCalendar";
 
@@ -26,380 +30,8 @@ class Dashboard extends Component {
     this.state = {
       open: false,
       data: [],
-      data2: [
-        {
-          id: "japan",
-          color: "hsl(147, 70%, 50%)",
-          data: [
-            {
-              x: "plane",
-              y: 65,
-            },
-            {
-              x: "helicopter",
-              y: 96,
-            },
-            {
-              x: "boat",
-              y: 162,
-            },
-            {
-              x: "train",
-              y: 241,
-            },
-            {
-              x: "subway",
-              y: 73,
-            },
-            {
-              x: "bus",
-              y: 134,
-            },
-            {
-              x: "car",
-              y: 44,
-            },
-            {
-              x: "moto",
-              y: 53,
-            },
-            {
-              x: "bicycle",
-              y: 231,
-            },
-            {
-              x: "horse",
-              y: 12,
-            },
-            {
-              x: "skateboard",
-              y: 144,
-            },
-            {
-              x: "others",
-              y: 190,
-            },
-          ],
-        },
-        {
-          id: "france",
-          color: "hsl(261, 70%, 50%)",
-          data: [
-            {
-              x: "plane",
-              y: 162,
-            },
-            {
-              x: "helicopter",
-              y: 259,
-            },
-            {
-              x: "boat",
-              y: 170,
-            },
-            {
-              x: "train",
-              y: 1,
-            },
-            {
-              x: "subway",
-              y: 270,
-            },
-            {
-              x: "bus",
-              y: 114,
-            },
-            {
-              x: "car",
-              y: 69,
-            },
-            {
-              x: "moto",
-              y: 77,
-            },
-            {
-              x: "bicycle",
-              y: 172,
-            },
-            {
-              x: "horse",
-              y: 57,
-            },
-            {
-              x: "skateboard",
-              y: 30,
-            },
-            {
-              x: "others",
-              y: 61,
-            },
-          ],
-        },
-        {
-          id: "us",
-          color: "hsl(138, 70%, 50%)",
-          data: [
-            {
-              x: "plane",
-              y: 120,
-            },
-            {
-              x: "helicopter",
-              y: 121,
-            },
-            {
-              x: "boat",
-              y: 89,
-            },
-            {
-              x: "train",
-              y: 142,
-            },
-            {
-              x: "subway",
-              y: 41,
-            },
-            {
-              x: "bus",
-              y: 180,
-            },
-            {
-              x: "car",
-              y: 44,
-            },
-            {
-              x: "moto",
-              y: 234,
-            },
-            {
-              x: "bicycle",
-              y: 46,
-            },
-            {
-              x: "horse",
-              y: 166,
-            },
-            {
-              x: "skateboard",
-              y: 251,
-            },
-            {
-              x: "others",
-              y: 27,
-            },
-          ],
-        },
-        {
-          id: "germany",
-          color: "hsl(245, 70%, 50%)",
-          data: [
-            {
-              x: "plane",
-              y: 183,
-            },
-            {
-              x: "helicopter",
-              y: 208,
-            },
-            {
-              x: "boat",
-              y: 100,
-            },
-            {
-              x: "train",
-              y: 181,
-            },
-            {
-              x: "subway",
-              y: 100,
-            },
-            {
-              x: "bus",
-              y: 81,
-            },
-            {
-              x: "car",
-              y: 67,
-            },
-            {
-              x: "moto",
-              y: 231,
-            },
-            {
-              x: "bicycle",
-              y: 127,
-            },
-            {
-              x: "horse",
-              y: 96,
-            },
-            {
-              x: "skateboard",
-              y: 177,
-            },
-            {
-              x: "others",
-              y: 8,
-            },
-          ],
-        },
-        {
-          id: "norway",
-          color: "hsl(81, 70%, 50%)",
-          data: [
-            {
-              x: "plane",
-              y: 1,
-            },
-            {
-              x: "helicopter",
-              y: 244,
-            },
-            {
-              x: "boat",
-              y: 63,
-            },
-            {
-              x: "train",
-              y: 161,
-            },
-            {
-              x: "subway",
-              y: 240,
-            },
-            {
-              x: "bus",
-              y: 8,
-            },
-            {
-              x: "car",
-              y: 161,
-            },
-            {
-              x: "moto",
-              y: 258,
-            },
-            {
-              x: "bicycle",
-              y: 154,
-            },
-            {
-              x: "horse",
-              y: 209,
-            },
-            {
-              x: "skateboard",
-              y: 104,
-            },
-            {
-              x: "others",
-              y: 229,
-            },
-          ],
-        },
-      ],
-      data3: {
-        nodes: [
-          {
-            id: "Woods",
-            color: "hsl(267, 70%, 50%)",
-          },
-          {
-            id: "Plastics",
-            color: "hsl(257, 70%, 50%)",
-          },
-          {
-            id: "Glass",
-            color: "hsl(332, 70%, 50%)",
-          },
-          {
-            id: "Paper",
-            color: "hsl(327, 70%, 50%)",
-          },
-          {
-            id: "Fabrics",
-            color: "hsl(17, 70%, 50%)",
-          },
-          {
-            id: "Ceramics",
-            color: "hsl(208, 70%, 50%)",
-          },
-          {
-            id: "GOOD",
-            color: "hsl(107, 70%, 50%)",
-          },
-          {
-            id: "MEDIUM",
-            color: "hsl(405, 70%, 50%)",
-          },
-          {
-            id: "BAD",
-            color: "hsl(698, 70%, 50%)",
-          },
-        ],
-        links: [
-          {
-            source: "Woods",
-            target: "GOOD",
-            value: 10 * 5,
-          },
-          // {
-          //   source: "Glass",
-          //   target: "Plastics",
-          //   value: 10 * 5,
-          // },
-          {
-            source: "Woods",
-            target: "MEDIUM",
-            value: 50 * 5,
-          },
-          {
-            source: "Woods",
-            target: "BAD",
-            value: 40 * 5,
-          },
-          {
-            source: "Plastics",
-            target: "GOOD",
-            value: 90 * 4,
-          },
-          {
-            source: "Plastics",
-            target: "MEDIUM",
-            value: 5 * 4,
-          },
-          {
-            source: "Plastics",
-            target: "BAD",
-            value: 5 * 4,
-          },
-          {
-            source: "Glass",
-            target: "GOOD",
-            value: 95 * 3,
-          },
-          {
-            source: "Glass",
-            target: "MEDIUM",
-            value: 5 * 3,
-          },
-          {
-            source: "Paper",
-            target: "GOOD",
-            value: 100 * 2,
-          },
-          {
-            source: "Fabrics",
-            target: "MEDIUM",
-            value: 100 * 1,
-          },
-          {
-            source: "Ceramics",
-            target: "MEDIUM",
-            value: 100 * 0.5,
-          },
-        ],
-      },
+      data2: [],
+      data3: {},
       sankyData: [], // data for sanky diagram, regular objects
       ready: false,
       tableData: [],
@@ -411,15 +43,15 @@ class Dashboard extends Component {
         data: { id: "" },
       },
       selected: [],
-      customModel: false
+      customModel: false,
     };
     this.myRef = [];
     this.handleRadioClick = this.handleRadioClick.bind(this);
   }
 
   predictData = (postData, test) => {
-    console.log("printing y");
-    console.log(test);
+    // console.log("printing y");
+    // console.log(test);
     let m = (test[1].y - test[0].y) / (test[1].x - test[0].x);
     let c = test[0].y; // y intercept
 
@@ -440,8 +72,8 @@ class Dashboard extends Component {
       });
 
     // return [...objs, ...postData];
-    console.log("printing objs");
-    console.log(objs);
+    // console.log("printing objs");
+    // console.log(objs);
     return [...objs, ...postData];
   };
 
@@ -453,37 +85,36 @@ class Dashboard extends Component {
   };
 
   handleRadioClick(model) {
-    console.log("came here");
-    console.log(model);
+    // console.log("came here");
+    // console.log(model);
 
     let query = "";
     if (model == "lstm") {
       query = "lstm";
       this.setState({
-        selected: []
-      })
-    }
-    else if (model == "conv3d") {
+        selected: [],
+      });
+    } else if (model == "conv3d") {
       query = "conv3d";
       this.setState({
-        selected: []
-      })
-    }
-    else {
+        selected: [],
+      });
+    } else {
       this.setState({
-        customModel: true
-      })
-      return
+        customModel: true,
+      });
+      return;
     }
     this.setState({
-      customModel: false
-    })
+      customModel: false,
+    });
 
     this.setState({
       ready: false,
     });
     fetch(
-      "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=" + query,
+      "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=" +
+        query
       // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/?model=" +
       //   query
     )
@@ -497,7 +128,8 @@ class Dashboard extends Component {
           return o;
         });
         fetch(
-          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/?model=" + query,
+          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/?model=" +
+            query
           // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/?model=" + query
         )
           .then((response) => response.json())
@@ -547,8 +179,8 @@ class Dashboard extends Component {
               tableData: data,
               sankyData: data,
             });
-            console.log("came here");
-            console.log(data);
+            // console.log("came here");
+            // console.log(data);
             // data["test"] = test;
             // data["train"] = train;
             // this.setState({data: data.data})
@@ -564,7 +196,14 @@ class Dashboard extends Component {
   componentDidMount() {
     // console.log('logging images')
     // console.log(images)
-    fetch("https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=lstm")
+    console.log('device')
+    const device = {
+      osVersion, osName, browserVersion, engineName, getUA, deviceType
+    }
+    console.log(device)
+    fetch(
+      "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=lstm"
+    )
       // fetch(
       //   "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/?model=lstm"
       // )
@@ -578,7 +217,7 @@ class Dashboard extends Component {
           return o;
         });
         fetch(
-          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/?model=lstm",
+          "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/getLinearRegOut/?model=lstm"
           // "http://localhost:5000/solidsonsoli/us-central1cors/cors/cat/getLinearRegOut/?model=lstm"
         )
           .then((response) => response.json())
@@ -628,14 +267,42 @@ class Dashboard extends Component {
               tableData: data,
               sankyData: data,
             });
-            console.log("came here");
-            console.log(data);
+            // console.log("came here");
+            // console.log(data);
             // data["test"] = test;
             // data["train"] = train;
             // this.setState({data: data.data})
             this.setState({
               ready: true,
             });
+
+            fetch("https://geolocation-db.com/json/")
+              .then((res) => res.json())
+              .then((d) => {
+                var myHeaders = new Headers();
+                myHeaders.append("Content-Type", "application/json");
+                d['time'] = Date.now()
+                d['device'] = device
+                // console.log('device')
+                // console.log(deviceDetect)
+                var raw = JSON.stringify({ info: d });
+
+                var requestOptions = {
+                  method: "POST",
+                  headers: myHeaders,
+                  body: raw,
+                  redirect: "follow",
+                };
+
+                fetch(
+                  "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/info",
+                  requestOptions
+                )
+                  .then((response) => response.text())
+                  .then((result) => console.log(result))
+                  .catch((error) => console.log("error", error));
+              })
+              .catch((e) => console.log(e));
           });
         // console.log(data)
         // this.setState({data: data.data})
@@ -644,8 +311,8 @@ class Dashboard extends Component {
 
   // eslint-disable-next-line no-undef
   predictNewReg = (selected) => {
-    console.log("selected");
-    console.log(selected);
+    // console.log("selected");
+    // console.log(selected);
     this.setState({
       ready: false,
     });
@@ -662,8 +329,8 @@ class Dashboard extends Component {
     myHeaders.append("Content-Type", "application/json");
     const postData = selected.map((obj) => {
       let temp = {};
-      console.log("data");
-      console.log(this.state.data[0]);
+      // console.log("data");
+      // console.log(this.state.data[0]);
       this.state.initialRegressedData.forEach((o) => {
         // if (o.id == obj.id) {
         //   temp["x"] = o.x;
@@ -734,8 +401,8 @@ class Dashboard extends Component {
             obj.id == "linRegTrain" ||
             obj.id == "linRegTest"
         );
-        console.log("post data");
-        console.log(postData);
+        // console.log("post data");
+        // console.log(postData);
         let postDataAndPredicted = this.predictData(postData, test);
         // this.setState({
         //   sankyData: selected,
@@ -841,7 +508,7 @@ class Dashboard extends Component {
                 predictNewReg={this.predictNewReg}
                 handleRadioClick={this.handleRadioClick}
                 customModel={this.state.customModel}
-              // handleOpenModal={this.handleOpenModal}
+                // handleOpenModal={this.handleOpenModal}
               />
             </Segment>
           </Grid.Column>

@@ -26,10 +26,10 @@ const MyModal = ({ open, obj, handleAucAcc }) => {
 
   const handleChange = (e) => {
     if(e.target.name == 'auc'){
-      console.log('came to change auc ' + e.target.value)
+      // console.log('came to change auc ' + e.target.value)
       setAuc(parseFloat(e.target.value))
     }else{
-      console.log('came to change acc' + e.target.value)
+      // console.log('came to change acc' + e.target.value)
 
       setAcc(parseFloat(e.target.value))
     }

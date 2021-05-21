@@ -59,18 +59,18 @@ const MultipleSearchSelection = ({ data, predictNewReg, handleRadioClick, custom
   const [v, setValue] = useState([]);
 
   useEffect(() => {
-    console.log("logging out data");
-    console.log(data);
+    // console.log("logging out data");
+    // console.log(data);
     // if (data.length > 0) setCategories(data[0].data);
     if (data.length > 0) setCategories(data);
   }, [data]);
   useEffect(() => {
-    console.log("v");
-    console.log(v);
+    // console.log("v");
+    // console.log(v);
   }, [v]);
   useEffect(() => {
-    console.log("selected changed");
-    console.log(selected);
+    // console.log("selected changed");
+    // console.log(selected);
   }, [selected]);
   const findObj = (id) => {
     categories.forEach((obj) => {
@@ -137,10 +137,10 @@ const MultipleSearchSelection = ({ data, predictNewReg, handleRadioClick, custom
               if (value.length < v.length) {
                 //   setValue(value)
                 let removed = v.filter((vv) => !value.includes(vv))[0];
-                console.log("removed " + removed);
+                // console.log("removed " + removed);
                 categories.map((c) => {
                   if (removed == c.id) {
-                    console.log("changing the name");
+                    // console.log("changing the name");
                     c.matName = c.matName.replace(/ACC.*$/g, "").trim();
                   }
                   return c;

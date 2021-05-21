@@ -17,8 +17,8 @@ const FullCalendar = ({data}) => {
   //   };
 
     useEffect(() => {
-      console.log('came here')
-      console.log(data)
+      // console.log('came here')
+      // console.log(data)
     }, [])
     return (
       <div style={{height: '500px'}}>  

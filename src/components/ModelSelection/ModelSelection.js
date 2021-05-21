@@ -11,7 +11,7 @@ const ModelSelection = ({handleRadioClick}) => {
 
   
     const handleChange = (event, target) => {
-        console.log(event)
+        // console.log(event)
         setValue(target.value)
         handleRadioClick(target.value)
 

@@ -397,7 +397,7 @@ const MyResponsiveScatterPlot = ({ dataOriginal, scrollToRow, dataDup }) => {
         onMouseMove={(node) => {
           // console.log(node)
           if (popup.data.id != node.id) {
-            console.log({ is: "mousemove", node });
+            // console.log({ is: "mousemove", node });
             // console.log(popup.data)
             // console.log(node)
             setPopup({

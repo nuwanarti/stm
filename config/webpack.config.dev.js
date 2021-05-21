@@ -216,9 +216,9 @@ module.exports = {
     ],
   },
   plugins: [
-    new HtmlWebpackPlugin({
-      template: 'index.html',
-    }),
+    // new HtmlWebpackPlugin({
+    //   template: 'index.html',
+    // }),
     // new CopyWebpackPlugin({
     //   patterns: [
     //     { from: './solids_on_soli.pdf' },
