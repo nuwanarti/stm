@@ -195,11 +195,6 @@ class Dashboard extends Component {
   componentDidMount() {
     // console.log('logging images')
     // console.log(images)
-    console.log('device')
-    const device = {
-      osVersion, osName, browserVersion, engineName, getUA, deviceType
-    }
-    console.log(device)
     fetch(
       "https://us-central1-solidsonsoli.cloudfunctions.net/cors/cat/?model=lstm"
     )
