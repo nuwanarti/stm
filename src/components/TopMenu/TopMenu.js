@@ -7,7 +7,8 @@ import Notification from "../Notification/Notification";
 import "./TopMenu.css";
 
 class TopMenu extends Component {
-  state = { activeItem: "catalogue" };
+  // state = { activeItem: "catalogue" };
+  state = { activeItem: "home" };
 
   // constructor(props){
   //   super(props)
